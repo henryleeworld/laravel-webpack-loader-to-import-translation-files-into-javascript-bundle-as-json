@@ -1,4 +1,4 @@
-# Laravel 8 Webpack 載入器將翻譯檔案作為 JavaScript Object Notation (JSON) 檔案匯入到 JavaScript 檔案中
+# Laravel 10 Webpack 載入器將翻譯檔案作為 JavaScript Object Notation (JSON) 檔案匯入到 JavaScript 檔案中
 
 引入 @kirschbaum-development 的 laravel-translations-loader Javascript 套件來擴增 Webpack 載入器將翻譯檔案作為 JavaScript Object Notation (JSON) 檔案匯入到 JavaScript 檔案中，讓網站可以簡單的支援多語系。
 
@@ -26,5 +26,5 @@ $ npm install && npm run dev
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/VARmGMz.png)
+![](https://i.imgur.com/qSRTZ0y.png)
 > 在切換語系時即時呈現使用者選擇的語言
