@@ -1,4 +1,4 @@
-# Laravel 10 Webpack 載入器將翻譯檔案作為 JavaScript Object Notation (JSON) 檔案匯入到 JavaScript 檔案中
+# Laravel 11 Webpack 載入器將翻譯檔案作為 JavaScript Object Notation (JSON) 檔案匯入到 JavaScript 檔案中
 
 引入 @kirschbaum-development 的 laravel-translations-loader Javascript 套件來擴增 Webpack 載入器將翻譯檔案作為 JavaScript Object Notation (JSON) 檔案匯入到 JavaScript 檔案中，讓網站可以簡單的支援多語系。
 
@@ -21,7 +21,7 @@ $ php artisan key:generate
 $ npm install && npm run dev
 ```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
-- 你可以經由 `/zh_TW` 來進行歡迎頁面瀏覽。
+- 你可以經由 `/` 來進行歡迎頁面瀏覽。
 
 ----
 

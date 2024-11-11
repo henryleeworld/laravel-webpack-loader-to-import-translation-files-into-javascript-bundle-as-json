@@ -7,28 +7,28 @@
   \***********************************************************************************************************************************************************/
 /***/ ((module) => {
 
-module.exports = {"en":{"frontend":{"welcome":{"content":{"file":{"json":"(JSON file):","php":"(PHP file):"},"news":"News","riders_are_abandoning_buses_and_trains":"Riders Are Abandoning Buses and Trains. That’s a Problem for Climate Change.","translation_for":"Translation for"}}}},"zh_TW":{"frontend":{"welcome":{"content":{"file":{"json":"（JSON 檔案）：","php":"（PHP 檔案）："},"news":"新聞","riders_are_abandoning_buses_and_trains":"乘客不再繼續搭巴士與火車 這對氣候變遷是一大問題。","translation_for":"翻譯"}}}}}
+module.exports = {"en":{"auth":{"failed":"These credentials do not match our records.","password":"The provided password is incorrect.","throttle":"Too many login attempts. Please try again in :seconds seconds."},"frontend":{"welcome":{"content":{"file":{"json":"(JSON file):","php":"(PHP file):"},"news":"News","climbing_toll_for_mount_fuji":"Climbing toll for Mount Fuji should be as high as 10,000 yen.","translation_for":"Translation for"}}},"pagination":{"previous":"&laquo; Previous","next":"Next &raquo;"},"passwords":{"reset":"Your password has been reset.","sent":"We have emailed your password reset link.","throttled":"Please wait before retrying.","token":"This password reset token is invalid.","user":"We can't find a user with that email address."},"validation":{"accepted":"The :attribute field must be accepted.","accepted_if":"The :attribute field must be accepted when :other is :value.","active_url":"The :attribute field must be a valid URL.","after":"The :attribute field must be a date after :date.","after_or_equal":"The :attribute field must be a date after or equal to :date.","alpha":"The :attribute field must only contain letters.","alpha_dash":"The :attribute field must only contain letters, numbers, dashes, and underscores.","alpha_num":"The :attribute field must only contain letters and numbers.","array":"The :attribute field must be an array.","ascii":"The :attribute field must only contain single-byte alphanumeric characters and symbols.","before":"The :attribute field must be a date before :date.","before_or_equal":"The :attribute field must be a date before or equal to :date.","between":{"array":"The :attribute field must have between :min and :max items.","file":"The :attribute field must be between :min and :max kilobytes.","numeric":"The :attribute field must be between :min and :max.","string":"The :attribute field must be between :min and :max characters."},"boolean":"The :attribute field must be true or false.","can":"The :attribute field contains an unauthorized value.","confirmed":"The :attribute field confirmation does not match.","contains":"The :attribute field is missing a required value.","current_password":"The password is incorrect.","date":"The :attribute field must be a valid date.","date_equals":"The :attribute field must be a date equal to :date.","date_format":"The :attribute field must match the format :format.","decimal":"The :attribute field must have :decimal decimal places.","declined":"The :attribute field must be declined.","declined_if":"The :attribute field must be declined when :other is :value.","different":"The :attribute field and :other must be different.","digits":"The :attribute field must be :digits digits.","digits_between":"The :attribute field must be between :min and :max digits.","dimensions":"The :attribute field has invalid image dimensions.","distinct":"The :attribute field has a duplicate value.","doesnt_end_with":"The :attribute field must not end with one of the following: :values.","doesnt_start_with":"The :attribute field must not start with one of the following: :values.","email":"The :attribute field must be a valid email address.","ends_with":"The :attribute field must end with one of the following: :values.","enum":"The selected :attribute is invalid.","exists":"The selected :attribute is invalid.","extensions":"The :attribute field must have one of the following extensions: :values.","file":"The :attribute field must be a file.","filled":"The :attribute field must have a value.","gt":{"array":"The :attribute field must have more than :value items.","file":"The :attribute field must be greater than :value kilobytes.","numeric":"The :attribute field must be greater than :value.","string":"The :attribute field must be greater than :value characters."},"gte":{"array":"The :attribute field must have :value items or more.","file":"The :attribute field must be greater than or equal to :value kilobytes.","numeric":"The :attribute field must be greater than or equal to :value.","string":"The :attribute field must be greater than or equal to :value characters."},"hex_color":"The :attribute field must be a valid hexadecimal color.","image":"The :attribute field must be an image.","in":"The selected :attribute is invalid.","in_array":"The :attribute field must exist in :other.","integer":"The :attribute field must be an integer.","ip":"The :attribute field must be a valid IP address.","ipv4":"The :attribute field must be a valid IPv4 address.","ipv6":"The :attribute field must be a valid IPv6 address.","json":"The :attribute field must be a valid JSON string.","list":"The :attribute field must be a list.","lowercase":"The :attribute field must be lowercase.","lt":{"array":"The :attribute field must have less than :value items.","file":"The :attribute field must be less than :value kilobytes.","numeric":"The :attribute field must be less than :value.","string":"The :attribute field must be less than :value characters."},"lte":{"array":"The :attribute field must not have more than :value items.","file":"The :attribute field must be less than or equal to :value kilobytes.","numeric":"The :attribute field must be less than or equal to :value.","string":"The :attribute field must be less than or equal to :value characters."},"mac_address":"The :attribute field must be a valid MAC address.","max":{"array":"The :attribute field must not have more than :max items.","file":"The :attribute field must not be greater than :max kilobytes.","numeric":"The :attribute field must not be greater than :max.","string":"The :attribute field must not be greater than :max characters."},"max_digits":"The :attribute field must not have more than :max digits.","mimes":"The :attribute field must be a file of type: :values.","mimetypes":"The :attribute field must be a file of type: :values.","min":{"array":"The :attribute field must have at least :min items.","file":"The :attribute field must be at least :min kilobytes.","numeric":"The :attribute field must be at least :min.","string":"The :attribute field must be at least :min characters."},"min_digits":"The :attribute field must have at least :min digits.","missing":"The :attribute field must be missing.","missing_if":"The :attribute field must be missing when :other is :value.","missing_unless":"The :attribute field must be missing unless :other is :value.","missing_with":"The :attribute field must be missing when :values is present.","missing_with_all":"The :attribute field must be missing when :values are present.","multiple_of":"The :attribute field must be a multiple of :value.","not_in":"The selected :attribute is invalid.","not_regex":"The :attribute field format is invalid.","numeric":"The :attribute field must be a number.","password":{"letters":"The :attribute field must contain at least one letter.","mixed":"The :attribute field must contain at least one uppercase and one lowercase letter.","numbers":"The :attribute field must contain at least one number.","symbols":"The :attribute field must contain at least one symbol.","uncompromised":"The given :attribute has appeared in a data leak. Please choose a different :attribute."},"present":"The :attribute field must be present.","present_if":"The :attribute field must be present when :other is :value.","present_unless":"The :attribute field must be present unless :other is :value.","present_with":"The :attribute field must be present when :values is present.","present_with_all":"The :attribute field must be present when :values are present.","prohibited":"The :attribute field is prohibited.","prohibited_if":"The :attribute field is prohibited when :other is :value.","prohibited_unless":"The :attribute field is prohibited unless :other is in :values.","prohibits":"The :attribute field prohibits :other from being present.","regex":"The :attribute field format is invalid.","required":"The :attribute field is required.","required_array_keys":"The :attribute field must contain entries for: :values.","required_if":"The :attribute field is required when :other is :value.","required_if_accepted":"The :attribute field is required when :other is accepted.","required_if_declined":"The :attribute field is required when :other is declined.","required_unless":"The :attribute field is required unless :other is in :values.","required_with":"The :attribute field is required when :values is present.","required_with_all":"The :attribute field is required when :values are present.","required_without":"The :attribute field is required when :values is not present.","required_without_all":"The :attribute field is required when none of :values are present.","same":"The :attribute field must match :other.","size":{"array":"The :attribute field must contain :size items.","file":"The :attribute field must be :size kilobytes.","numeric":"The :attribute field must be :size.","string":"The :attribute field must be :size characters."},"starts_with":"The :attribute field must start with one of the following: :values.","string":"The :attribute field must be a string.","timezone":"The :attribute field must be a valid timezone.","unique":"The :attribute has already been taken.","uploaded":"The :attribute failed to upload.","uppercase":"The :attribute field must be uppercase.","url":"The :attribute field must be a valid URL.","ulid":"The :attribute field must be a valid ULID.","uuid":"The :attribute field must be a valid UUID.","custom":{"attribute-name":{"rule-name":"custom-message"}},"attributes":[]}},"zh_TW":{"auth":{"failed":"使用者名稱或密碼錯誤。","password":"密碼錯誤","throttle":"嘗試登入太多次，請在 :seconds 秒後再試。"},"frontend":{"welcome":{"content":{"file":{"json":"（JSON 檔案）：","php":"（PHP 檔案）："},"news":"新聞","climbing_toll_for_mount_fuji":"富士山登山費應高達 1 萬日圓。","translation_for":"翻譯"}}},"pagination":{"next":"下一頁 &raquo;","previous":"&laquo; 上一頁"},"passwords":{"reset":"密碼已成功重設！","sent":"密碼重設郵件已發送！","throttled":"請稍候再試。","token":"密碼重設碼無效。","user":"找不到該 E-mail 對應的使用者。"},"validation":{"accepted":"必須接受 :attribute。","accepted_if":"當 :other 為 :value 時，:attribute 必須接受。","active_url":":Attribute 不是有效的網址。","after":":Attribute 必須要晚於 :date。","after_or_equal":":Attribute 必須要等於 :date 或更晚。","alpha":":Attribute 只能以字母組成。","alpha_dash":":Attribute 只能以字母、數字、連接線(-)及底線(_)組成。","alpha_num":":Attribute 只能以字母及數字組成。","array":":Attribute 必須為陣列。","ascii":":Attribute 必須僅包含單字節字母數字字符和符號。","before":":Attribute 必須要早於 :date。","before_or_equal":":Attribute 必須要等於 :date 或更早。","between":{"array":":Attribute: 必須有 :min - :max 個元素。","file":":Attribute 必須介於 :min 至 :max KB 之間。","numeric":":Attribute 必須介於 :min 至 :max 之間。","string":":Attribute 必須介於 :min 至 :max 個字元之間。"},"boolean":":Attribute 必須為布林值。","can":":Attribute 字段包含未經授權的值。","confirmed":":Attribute 確認欄位的輸入不一致。","current_password":"當前密碼不正確。","date":":Attribute 不是有效的日期。","date_equals":":Attribute 必須等於 :date。","date_format":":Attribute 不符合 :format 的格式。","decimal":":Attribute 必須有 :decimal 位小數。","declined":":Attribute 必須拒絕。","declined_if":"當 :other 為 :value 時，:attribute 必須拒絕。","different":":Attribute 與 :other 必須不同。","digits":":Attribute 必須是 :digits 位數字。","digits_between":":Attribute 必須介於 :min 至 :max 位數字。","dimensions":":Attribute 圖片尺寸不正確。","distinct":":Attribute 已經存在。","doesnt_end_with":":Attribute 不能以下列之一結尾：:values。","doesnt_start_with":":Attribute 不能以下列之一開頭：:values。","email":":Attribute 必須是有效的 E-mail。","ends_with":":Attribute 結尾必須包含下列之一：:values。","enum":":Attribute 的值不正確。","exists":":Attribute 不存在。","extensions":":attribute 欄位必須具有以下副檔名之一：:values。","file":":Attribute 必須是有效的檔案。","filled":":Attribute 不能留空。","gt":{"array":":Attribute 必須多於 :value 個元素。","file":":Attribute 必須大於 :value KB。","numeric":":Attribute 必須大於 :value。","string":":Attribute 必須多於 :value 個字元。"},"gte":{"array":":Attribute 必須多於或等於 :value 個元素。","file":":Attribute 必須大於或等於 :value KB。","numeric":":Attribute 必須大於或等於 :value。","string":":Attribute 必須多於或等於 :value 個字元。"},"hex_color":":attribute 字段必須是有效的十六進位顏色。","image":":Attribute 必須是一張圖片。","in":"所選擇的 :attribute 選項無效。","in_array":":Attribute 沒有在 :other 中。","integer":":Attribute 必須是一個整數。","ip":":Attribute 必須是一個有效的 IP 位址。","ipv4":":Attribute 必須是一個有效的 IPv4 位址。","ipv6":":Attribute 必須是一個有效的 IPv6 位址。","json":":Attribute 必須是正確的 JSON 字串。","list":"The :attribute field must be a list.","lowercase":":Attribute 必須小寫。","lt":{"array":":Attribute 必須少於 :value 個元素。","file":":Attribute 必須小於 :value KB。","numeric":":Attribute 必須小於 :value。","string":":Attribute 必須少於 :value 個字元。"},"lte":{"array":":Attribute 必須少於或等於 :value 個元素。","file":":Attribute 必須小於或等於 :value KB。","numeric":":Attribute 必須小於或等於 :value。","string":":Attribute 必須少於或等於 :value 個字元。"},"mac_address":":Attribute 必須是一個有效的 MAC 位址。","max":{"array":":Attribute 最多有 :max 個元素。","file":":Attribute 不能大於 :max KB。","numeric":":Attribute 不能大於 :max。","string":":Attribute 不能多於 :max 個字元。"},"max_digits":":Attribute 不得超過 :max 位。","mimes":":Attribute 必須為 :values 的檔案。","mimetypes":":Attribute 必須為 :values 的檔案。","min":{"array":":Attribute 至少有 :min 個元素。","file":":Attribute 不能小於 :min KB。","numeric":":Attribute 不能小於 :min。","string":":Attribute 不能小於 :min 個字元。"},"min_digits":":Attribute 必須至少有 :min 位數字。","missing":"必須缺少 :attribute 字段。","missing_if":"當 :other 為 :value 時，必須缺少 :attribute 字段。","missing_unless":"必須缺少 :attribute 字段，除非 :other 是 :value。","missing_with":"存在 :values 時，必須缺少 :attribute 字段。","missing_with_all":"存在 :values 時，必須缺少 :attribute 字段。","multiple_of":"所選擇的 :attribute 必須為 :value 中的多個。","not_in":"所選擇的 :attribute 選項無效。","not_regex":":Attribute 的格式錯誤。","numeric":":Attribute 必須為一個數字。","password":{"letters":":Attribute 必須至少包含一個字母。","mixed":":Attribute 必須至少包含一個大寫字母和一個小寫字母。","numbers":":Attribute 必須至少包含一個數字。","symbols":":Attribute 必須包含至少一個符號。","uncompromised":"給定的 :attribute 已出現數據洩漏。請選擇不同的 :attribute。"},"present":":Attribute 必須存在。","present_if":"當 :other 等於 :value 時，必須存在 :attribute 個欄位。","present_unless":"除非 :other 等於 :value，否則 :attribute 個字段必須存在。","present_with":"當 :values 存在時，:attribute 個字段必須存在。","present_with_all":"當存在 :values 時，必須存在 :attribute 個字段。","prohibited":":Attribute 字段被禁止。","prohibited_if":"当 :other 为 :value 时，:attribute字段被禁止。","prohibited_unless":":Attribute 字段被禁止，除非 :other 在 :values 中。","prohibits":":Attribute 字段禁止包含 :other。","regex":":Attribute 的格式錯誤。","required":":Attribute 不能留空。","required_array_keys":":Attribute 必須包含 :values 中的一個鍵。","required_if":"當 :other 是 :value 時 :attribute 不能留空。","required_if_accepted":"接受 :other 時需要 :attribute 字段。","required_unless":"當 :other 不是 :values 時 :attribute 不能留空。","required_with":"當 :values 出現時 :attribute 不能留空。","required_with_all":"當 :values 出現時 :attribute 不能為空。","required_without":"當 :values 留空時 :attribute field 不能留空。","required_without_all":"當 :values 都不出現時 :attribute 不能留空。","same":":Attribute 與 :other 必須相同。","size":{"array":":Attribute 必須是 :size 個元素。","file":":Attribute 的大小必須是 :size KB。","numeric":":Attribute 的大小必須是 :size。","string":":Attribute 必須是 :size 個字元。"},"starts_with":":Attribute 開頭必須包含下列之一：:values。","string":":Attribute 必須是一個字串。","timezone":":Attribute 必須是一個正確的時區值。","ulid":":Attribute 必須是有效的 ULID。","unique":":Attribute 已經存在。","uploaded":":Attribute 上傳失敗。","uppercase":":Attribute 必須大寫。","url":":Attribute 的格式錯誤。","uuid":":Attribute 必須是有效的 UUID。","attributes":{"address":"地址","affiliate_url":"附屬網址","age":"年齡","amount":"數量","area":"區域","available":"可用的","birthday":"生日","body":"身體","city":"城市","content":"內容","country":"國家","created_at":"創建於","creator":"創造者","currency":"貨幣","current_password":"當前密碼","customer":"顧客","date":"日期","date_of_birth":"出生日期","day":"天","deleted_at":"刪除於","description":"描述","district":"區","duration":"期間","email":"e-mail","excerpt":"摘要","filter":"篩選","first_name":"名","gender":"性別","group":"團體","hour":"時","image":"圖片","is_subscribed":"已訂閱","items":"專案","last_name":"姓","lesson":"課","line_address_1":"行地址 1","line_address_2":"行地址 2","message":"信息","middle_name":"中間名字","minute":"分","mobile":"手機","month":"月","name":"名稱","national_code":"國家代碼","number":"數字","password":"密碼","password_confirmation":"確認密碼","phone":"電話","photo":"照片","postal_code":"郵政編碼","preview":"預覽","price":"價格","product_id":"產品編號","product_uid":"產品UID","product_uuid":"產品UUID","promo_code":"促銷代碼","province":"省","quantity":"數量","recaptcha_response_field":"重新驗證響應字段","remember":"記住","restored_at":"恢復於","result_text_under_image":"圖片下方的結果文本","role":"角色","second":"秒","sex":"性別","shipment":"運輸","short_text":"短文","size":"大小","state":"狀態","street":"街道","student":"學生","subject":"主題","teacher":"老師","terms":"條款","test_description":"測試說明","test_locale":"測試語言環境","test_name":"測試名稱","text":"文本","time":"時間","title":"標題","updated_at":"更新於","user":"使用者","username":"使用者名稱","year":"年"}},"Climbing toll for Mount Fuji should be as high as 10,000 yen.":"富士山登山費應高達 1 萬日圓。"}}
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e&":
-/*!**********************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e& ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e":
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* binding */ render),
-/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */   render: () => (/* binding */ render),
+/* harmony export */   staticRenderFns: () => (/* binding */ staticRenderFns)
 /* harmony export */ });
 var render = function render() {
   var _vm = this,
     _c = _vm._self._c;
   return _c("div", {
     staticClass: "container"
-  }, [_c("p", [_c("strong", [_vm._v(_vm._s(_vm.$t("frontend.welcome.content.translation_for")) + " " + _vm._s(_vm.$t("frontend.welcome.content.news")) + " " + _vm._s(_vm.$t("frontend.welcome.content.file.php")))]), _c("br"), _vm._v("\n    " + _vm._s(_vm.$t("frontend.welcome.content.riders_are_abandoning_buses_and_trains")))]), _vm._v(" "), _c("p", [_c("strong", [_vm._v(_vm._s(_vm.$t("frontend.welcome.content.translation_for")) + " " + _vm._s(_vm.$t("frontend.welcome.content.news")) + " " + _vm._s(_vm.$t("frontend.welcome.content.file.json")))]), _c("br"), _vm._v("\n    " + _vm._s(_vm.$t("Riders Are Abandoning Buses and Trains")))])]);
+  }, [_c("p", [_c("strong", [_vm._v(_vm._s(_vm.$t("frontend.welcome.content.translation_for")) + " " + _vm._s(_vm.$t("frontend.welcome.content.news")) + " " + _vm._s(_vm.$t("frontend.welcome.content.file.php")))]), _c("br"), _vm._v("\n    " + _vm._s(_vm.$t("frontend.welcome.content.climbing_toll_for_mount_fuji")))]), _vm._v(" "), _c("p", [_c("strong", [_vm._v(_vm._s(_vm.$t("frontend.welcome.content.translation_for")) + " " + _vm._s(_vm.$t("frontend.welcome.content.news")) + " " + _vm._s(_vm.$t("frontend.welcome.content.file.json")))]), _c("br"), _vm._v("\n    " + _vm._s(_vm.$t("Climbing toll for Mount Fuji should be as high as 10,000 yen.")))])]);
 };
 var staticRenderFns = [];
 render._withStripped = true;
@@ -86,37 +86,9 @@ var app = new vue__WEBPACK_IMPORTED_MODULE_2__["default"]({
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "./node_modules/axios/lib/axios.js");
-/**
- * We'll load the axios HTTP library which allows us to easily issue requests
- * to our Laravel back-end. This library automatically handles sending the
- * CSRF token as a header based on the value of the "XSRF" token cookie.
- */
-
 
 window.axios = axios__WEBPACK_IMPORTED_MODULE_0__["default"];
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
-
-/**
- * Echo exposes an expressive API for subscribing to channels and listening
- * for events that are broadcast by Laravel. Echo and event broadcasting
- * allows your team to easily build robust real-time web applications.
- */
-
-// import Echo from 'laravel-echo';
-
-// import Pusher from 'pusher-js';
-// window.Pusher = Pusher;
-
-// window.Echo = new Echo({
-//     broadcaster: 'pusher',
-//     key: import.meta.env.VITE_PUSHER_APP_KEY,
-//     cluster: import.meta.env.VITE_PUSHER_APP_CLUSTER ?? 'mt1',
-//     wsHost: import.meta.env.VITE_PUSHER_HOST ? import.meta.env.VITE_PUSHER_HOST : `ws-${import.meta.env.VITE_PUSHER_APP_CLUSTER}.pusher.com`,
-//     wsPort: import.meta.env.VITE_PUSHER_PORT ?? 80,
-//     wssPort: import.meta.env.VITE_PUSHER_PORT ?? 443,
-//     forceTLS: (import.meta.env.VITE_PUSHER_SCHEME ?? 'https') === 'https',
-//     enabledTransports: ['ws', 'wss'],
-// });
 
 /***/ }),
 
@@ -2200,6 +2172,200 @@ module.exports = Array.isArray || function (arr) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
+/***/ "./node_modules/process/browser.js":
+/*!*****************************************!*\
+  !*** ./node_modules/process/browser.js ***!
+  \*****************************************/
+/***/ ((module) => {
+
+// shim for using process in browser
+var process = module.exports = {};
+
+// cached from whatever global is present so that test runners that stub it
+// don't break things.  But we need to wrap it in a try catch in case it is
+// wrapped in strict mode code which doesn't define any globals.  It's inside a
+// function because try/catches deoptimize in certain engines.
+
+var cachedSetTimeout;
+var cachedClearTimeout;
+
+function defaultSetTimout() {
+    throw new Error('setTimeout has not been defined');
+}
+function defaultClearTimeout () {
+    throw new Error('clearTimeout has not been defined');
+}
+(function () {
+    try {
+        if (typeof setTimeout === 'function') {
+            cachedSetTimeout = setTimeout;
+        } else {
+            cachedSetTimeout = defaultSetTimout;
+        }
+    } catch (e) {
+        cachedSetTimeout = defaultSetTimout;
+    }
+    try {
+        if (typeof clearTimeout === 'function') {
+            cachedClearTimeout = clearTimeout;
+        } else {
+            cachedClearTimeout = defaultClearTimeout;
+        }
+    } catch (e) {
+        cachedClearTimeout = defaultClearTimeout;
+    }
+} ())
+function runTimeout(fun) {
+    if (cachedSetTimeout === setTimeout) {
+        //normal enviroments in sane situations
+        return setTimeout(fun, 0);
+    }
+    // if setTimeout wasn't available but was latter defined
+    if ((cachedSetTimeout === defaultSetTimout || !cachedSetTimeout) && setTimeout) {
+        cachedSetTimeout = setTimeout;
+        return setTimeout(fun, 0);
+    }
+    try {
+        // when when somebody has screwed with setTimeout but no I.E. maddness
+        return cachedSetTimeout(fun, 0);
+    } catch(e){
+        try {
+            // When we are in I.E. but the script has been evaled so I.E. doesn't trust the global object when called normally
+            return cachedSetTimeout.call(null, fun, 0);
+        } catch(e){
+            // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error
+            return cachedSetTimeout.call(this, fun, 0);
+        }
+    }
+
+
+}
+function runClearTimeout(marker) {
+    if (cachedClearTimeout === clearTimeout) {
+        //normal enviroments in sane situations
+        return clearTimeout(marker);
+    }
+    // if clearTimeout wasn't available but was latter defined
+    if ((cachedClearTimeout === defaultClearTimeout || !cachedClearTimeout) && clearTimeout) {
+        cachedClearTimeout = clearTimeout;
+        return clearTimeout(marker);
+    }
+    try {
+        // when when somebody has screwed with setTimeout but no I.E. maddness
+        return cachedClearTimeout(marker);
+    } catch (e){
+        try {
+            // When we are in I.E. but the script has been evaled so I.E. doesn't  trust the global object when called normally
+            return cachedClearTimeout.call(null, marker);
+        } catch (e){
+            // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error.
+            // Some versions of I.E. have different rules for clearTimeout vs setTimeout
+            return cachedClearTimeout.call(this, marker);
+        }
+    }
+
+
+
+}
+var queue = [];
+var draining = false;
+var currentQueue;
+var queueIndex = -1;
+
+function cleanUpNextTick() {
+    if (!draining || !currentQueue) {
+        return;
+    }
+    draining = false;
+    if (currentQueue.length) {
+        queue = currentQueue.concat(queue);
+    } else {
+        queueIndex = -1;
+    }
+    if (queue.length) {
+        drainQueue();
+    }
+}
+
+function drainQueue() {
+    if (draining) {
+        return;
+    }
+    var timeout = runTimeout(cleanUpNextTick);
+    draining = true;
+
+    var len = queue.length;
+    while(len) {
+        currentQueue = queue;
+        queue = [];
+        while (++queueIndex < len) {
+            if (currentQueue) {
+                currentQueue[queueIndex].run();
+            }
+        }
+        queueIndex = -1;
+        len = queue.length;
+    }
+    currentQueue = null;
+    draining = false;
+    runClearTimeout(timeout);
+}
+
+process.nextTick = function (fun) {
+    var args = new Array(arguments.length - 1);
+    if (arguments.length > 1) {
+        for (var i = 1; i < arguments.length; i++) {
+            args[i - 1] = arguments[i];
+        }
+    }
+    queue.push(new Item(fun, args));
+    if (queue.length === 1 && !draining) {
+        runTimeout(drainQueue);
+    }
+};
+
+// v8 likes predictible objects
+function Item(fun, array) {
+    this.fun = fun;
+    this.array = array;
+}
+Item.prototype.run = function () {
+    this.fun.apply(null, this.array);
+};
+process.title = 'browser';
+process.browser = true;
+process.env = {};
+process.argv = [];
+process.version = ''; // empty string to avoid regexp issues
+process.versions = {};
+
+function noop() {}
+
+process.on = noop;
+process.addListener = noop;
+process.once = noop;
+process.off = noop;
+process.removeListener = noop;
+process.removeAllListeners = noop;
+process.emit = noop;
+process.prependListener = noop;
+process.prependOnceListener = noop;
+
+process.listeners = function (name) { return [] }
+
+process.binding = function (name) {
+    throw new Error('process.binding is not supported');
+};
+
+process.cwd = function () { return '/' };
+process.chdir = function (dir) {
+    throw new Error('process.chdir is not supported');
+};
+process.umask = function() { return 0; };
 
 
 /***/ }),
@@ -4534,7 +4700,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ExampleComponent.vue?vue&type=template&id=299e239e& */ "./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e&");
+/* harmony import */ var _ExampleComponent_vue_vue_type_template_id_299e239e__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ExampleComponent.vue?vue&type=template&id=299e239e */ "./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e");
 /* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 var script = {}
@@ -4544,8 +4710,8 @@ var script = {}
 ;
 var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
   script,
-  _ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__.render,
-  _ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  _ExampleComponent_vue_vue_type_template_id_299e239e__WEBPACK_IMPORTED_MODULE_0__.render,
+  _ExampleComponent_vue_vue_type_template_id_299e239e__WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
   false,
   null,
   null,
@@ -4560,19 +4726,19 @@ component.options.__file = "resources/js/components/ExampleComponent.vue"
 
 /***/ }),
 
-/***/ "./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e&":
-/*!*************************************************************************************!*\
-  !*** ./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e& ***!
-  \*************************************************************************************/
+/***/ "./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e":
+/*!************************************************************************************!*\
+  !*** ./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e ***!
+  \************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__.render),
-/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */   render: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_template_id_299e239e__WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   staticRenderFns: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_template_id_299e239e__WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
 /* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./ExampleComponent.vue?vue&type=template&id=299e239e& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e&");
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_template_id_299e239e__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./ExampleComponent.vue?vue&type=template&id=299e239e */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e");
 
 
 /***/ }),
@@ -4697,67 +4863,67 @@ function normalizeComponent(
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "EffectScope": () => (/* binding */ EffectScope),
-/* harmony export */   "computed": () => (/* binding */ computed),
-/* harmony export */   "customRef": () => (/* binding */ customRef),
+/* harmony export */   EffectScope: () => (/* binding */ EffectScope),
+/* harmony export */   computed: () => (/* binding */ computed),
+/* harmony export */   customRef: () => (/* binding */ customRef),
 /* harmony export */   "default": () => (/* binding */ Vue),
-/* harmony export */   "defineAsyncComponent": () => (/* binding */ defineAsyncComponent),
-/* harmony export */   "defineComponent": () => (/* binding */ defineComponent),
-/* harmony export */   "del": () => (/* binding */ del),
-/* harmony export */   "effectScope": () => (/* binding */ effectScope),
-/* harmony export */   "getCurrentInstance": () => (/* binding */ getCurrentInstance),
-/* harmony export */   "getCurrentScope": () => (/* binding */ getCurrentScope),
-/* harmony export */   "h": () => (/* binding */ h),
-/* harmony export */   "inject": () => (/* binding */ inject),
-/* harmony export */   "isProxy": () => (/* binding */ isProxy),
-/* harmony export */   "isReactive": () => (/* binding */ isReactive),
-/* harmony export */   "isReadonly": () => (/* binding */ isReadonly),
-/* harmony export */   "isRef": () => (/* binding */ isRef),
-/* harmony export */   "isShallow": () => (/* binding */ isShallow),
-/* harmony export */   "markRaw": () => (/* binding */ markRaw),
-/* harmony export */   "mergeDefaults": () => (/* binding */ mergeDefaults),
-/* harmony export */   "nextTick": () => (/* binding */ nextTick),
-/* harmony export */   "onActivated": () => (/* binding */ onActivated),
-/* harmony export */   "onBeforeMount": () => (/* binding */ onBeforeMount),
-/* harmony export */   "onBeforeUnmount": () => (/* binding */ onBeforeUnmount),
-/* harmony export */   "onBeforeUpdate": () => (/* binding */ onBeforeUpdate),
-/* harmony export */   "onDeactivated": () => (/* binding */ onDeactivated),
-/* harmony export */   "onErrorCaptured": () => (/* binding */ onErrorCaptured),
-/* harmony export */   "onMounted": () => (/* binding */ onMounted),
-/* harmony export */   "onRenderTracked": () => (/* binding */ onRenderTracked),
-/* harmony export */   "onRenderTriggered": () => (/* binding */ onRenderTriggered),
-/* harmony export */   "onScopeDispose": () => (/* binding */ onScopeDispose),
-/* harmony export */   "onServerPrefetch": () => (/* binding */ onServerPrefetch),
-/* harmony export */   "onUnmounted": () => (/* binding */ onUnmounted),
-/* harmony export */   "onUpdated": () => (/* binding */ onUpdated),
-/* harmony export */   "provide": () => (/* binding */ provide),
-/* harmony export */   "proxyRefs": () => (/* binding */ proxyRefs),
-/* harmony export */   "reactive": () => (/* binding */ reactive),
-/* harmony export */   "readonly": () => (/* binding */ readonly),
-/* harmony export */   "ref": () => (/* binding */ ref$1),
-/* harmony export */   "set": () => (/* binding */ set),
-/* harmony export */   "shallowReactive": () => (/* binding */ shallowReactive),
-/* harmony export */   "shallowReadonly": () => (/* binding */ shallowReadonly),
-/* harmony export */   "shallowRef": () => (/* binding */ shallowRef),
-/* harmony export */   "toRaw": () => (/* binding */ toRaw),
-/* harmony export */   "toRef": () => (/* binding */ toRef),
-/* harmony export */   "toRefs": () => (/* binding */ toRefs),
-/* harmony export */   "triggerRef": () => (/* binding */ triggerRef),
-/* harmony export */   "unref": () => (/* binding */ unref),
-/* harmony export */   "useAttrs": () => (/* binding */ useAttrs),
-/* harmony export */   "useCssModule": () => (/* binding */ useCssModule),
-/* harmony export */   "useCssVars": () => (/* binding */ useCssVars),
-/* harmony export */   "useListeners": () => (/* binding */ useListeners),
-/* harmony export */   "useSlots": () => (/* binding */ useSlots),
-/* harmony export */   "version": () => (/* binding */ version),
-/* harmony export */   "watch": () => (/* binding */ watch),
-/* harmony export */   "watchEffect": () => (/* binding */ watchEffect),
-/* harmony export */   "watchPostEffect": () => (/* binding */ watchPostEffect),
-/* harmony export */   "watchSyncEffect": () => (/* binding */ watchSyncEffect)
+/* harmony export */   defineAsyncComponent: () => (/* binding */ defineAsyncComponent),
+/* harmony export */   defineComponent: () => (/* binding */ defineComponent),
+/* harmony export */   del: () => (/* binding */ del),
+/* harmony export */   effectScope: () => (/* binding */ effectScope),
+/* harmony export */   getCurrentInstance: () => (/* binding */ getCurrentInstance),
+/* harmony export */   getCurrentScope: () => (/* binding */ getCurrentScope),
+/* harmony export */   h: () => (/* binding */ h),
+/* harmony export */   inject: () => (/* binding */ inject),
+/* harmony export */   isProxy: () => (/* binding */ isProxy),
+/* harmony export */   isReactive: () => (/* binding */ isReactive),
+/* harmony export */   isReadonly: () => (/* binding */ isReadonly),
+/* harmony export */   isRef: () => (/* binding */ isRef),
+/* harmony export */   isShallow: () => (/* binding */ isShallow),
+/* harmony export */   markRaw: () => (/* binding */ markRaw),
+/* harmony export */   mergeDefaults: () => (/* binding */ mergeDefaults),
+/* harmony export */   nextTick: () => (/* binding */ nextTick),
+/* harmony export */   onActivated: () => (/* binding */ onActivated),
+/* harmony export */   onBeforeMount: () => (/* binding */ onBeforeMount),
+/* harmony export */   onBeforeUnmount: () => (/* binding */ onBeforeUnmount),
+/* harmony export */   onBeforeUpdate: () => (/* binding */ onBeforeUpdate),
+/* harmony export */   onDeactivated: () => (/* binding */ onDeactivated),
+/* harmony export */   onErrorCaptured: () => (/* binding */ onErrorCaptured),
+/* harmony export */   onMounted: () => (/* binding */ onMounted),
+/* harmony export */   onRenderTracked: () => (/* binding */ onRenderTracked),
+/* harmony export */   onRenderTriggered: () => (/* binding */ onRenderTriggered),
+/* harmony export */   onScopeDispose: () => (/* binding */ onScopeDispose),
+/* harmony export */   onServerPrefetch: () => (/* binding */ onServerPrefetch),
+/* harmony export */   onUnmounted: () => (/* binding */ onUnmounted),
+/* harmony export */   onUpdated: () => (/* binding */ onUpdated),
+/* harmony export */   provide: () => (/* binding */ provide),
+/* harmony export */   proxyRefs: () => (/* binding */ proxyRefs),
+/* harmony export */   reactive: () => (/* binding */ reactive),
+/* harmony export */   readonly: () => (/* binding */ readonly),
+/* harmony export */   ref: () => (/* binding */ ref$1),
+/* harmony export */   set: () => (/* binding */ set),
+/* harmony export */   shallowReactive: () => (/* binding */ shallowReactive),
+/* harmony export */   shallowReadonly: () => (/* binding */ shallowReadonly),
+/* harmony export */   shallowRef: () => (/* binding */ shallowRef),
+/* harmony export */   toRaw: () => (/* binding */ toRaw),
+/* harmony export */   toRef: () => (/* binding */ toRef),
+/* harmony export */   toRefs: () => (/* binding */ toRefs),
+/* harmony export */   triggerRef: () => (/* binding */ triggerRef),
+/* harmony export */   unref: () => (/* binding */ unref),
+/* harmony export */   useAttrs: () => (/* binding */ useAttrs),
+/* harmony export */   useCssModule: () => (/* binding */ useCssModule),
+/* harmony export */   useCssVars: () => (/* binding */ useCssVars),
+/* harmony export */   useListeners: () => (/* binding */ useListeners),
+/* harmony export */   useSlots: () => (/* binding */ useSlots),
+/* harmony export */   version: () => (/* binding */ version),
+/* harmony export */   watch: () => (/* binding */ watch),
+/* harmony export */   watchEffect: () => (/* binding */ watchEffect),
+/* harmony export */   watchPostEffect: () => (/* binding */ watchPostEffect),
+/* harmony export */   watchSyncEffect: () => (/* binding */ watchSyncEffect)
 /* harmony export */ });
 /*!
- * Vue.js v2.7.14
- * (c) 2014-2022 Evan You
+ * Vue.js v2.7.16
+ * (c) 2014-2023 Evan You
  * Released under the MIT License.
  */
 var emptyObject = Object.freeze({});
@@ -4833,8 +4999,15 @@ function toString(val) {
     return val == null
         ? ''
         : Array.isArray(val) || (isPlainObject(val) && val.toString === _toString)
-            ? JSON.stringify(val, null, 2)
+            ? JSON.stringify(val, replacer, 2)
             : String(val);
+}
+function replacer(_key, val) {
+    // avoid circular deps from v3
+    if (val && val.__v_isRef) {
+        return val.value;
+    }
+    return val;
 }
 /**
  * Convert an input value to a number for persistence.
@@ -4997,9 +5170,7 @@ var identity = function (_) { return _; };
  */
 function genStaticKeys$1(modules) {
     return modules
-        .reduce(function (keys, m) {
-        return keys.concat(m.staticKeys || []);
-    }, [])
+        .reduce(function (keys, m) { return keys.concat(m.staticKeys || []); }, [])
         .join(',');
 }
 /**
@@ -5502,6 +5673,11 @@ var __assign = function() {
     return __assign.apply(this, arguments);
 };
 
+typeof SuppressedError === "function" ? SuppressedError : function (error, suppressed, message) {
+    var e = new Error(message);
+    return e.name = "SuppressedError", e.error = error, e.suppressed = suppressed, e;
+};
+
 var uid$2 = 0;
 var pendingCleanupDeps = [];
 var cleanupDeps = function () {
@@ -5634,7 +5810,7 @@ methodsToPatch.forEach(function (method) {
 });
 
 var arrayKeys = Object.getOwnPropertyNames(arrayMethods);
-var NO_INIITIAL_VALUE = {};
+var NO_INITIAL_VALUE = {};
 /**
  * In some cases we may want to disable observation inside a component's
  * update computation.
@@ -5693,7 +5869,7 @@ var Observer = /** @class */ (function () {
             var keys = Object.keys(value);
             for (var i = 0; i < keys.length; i++) {
                 var key = keys[i];
-                defineReactive(value, key, NO_INIITIAL_VALUE, undefined, shallow, mock);
+                defineReactive(value, key, NO_INITIAL_VALUE, undefined, shallow, mock);
             }
         }
     }
@@ -5730,7 +5906,8 @@ function observe(value, shallow, ssrMockReactivity) {
 /**
  * Define a reactive property on an Object.
  */
-function defineReactive(obj, key, val, customSetter, shallow, mock) {
+function defineReactive(obj, key, val, customSetter, shallow, mock, observeEvenIfShallow) {
+    if (observeEvenIfShallow === void 0) { observeEvenIfShallow = false; }
     var dep = new Dep();
     var property = Object.getOwnPropertyDescriptor(obj, key);
     if (property && property.configurable === false) {
@@ -5740,10 +5917,10 @@ function defineReactive(obj, key, val, customSetter, shallow, mock) {
     var getter = property && property.get;
     var setter = property && property.set;
     if ((!getter || setter) &&
-        (val === NO_INIITIAL_VALUE || arguments.length === 2)) {
+        (val === NO_INITIAL_VALUE || arguments.length === 2)) {
         val = obj[key];
     }
-    var childOb = !shallow && observe(val, false, mock);
+    var childOb = shallow ? val && val.__ob__ : observe(val, false, mock);
     Object.defineProperty(obj, key, {
         enumerable: true,
         configurable: true,
@@ -5789,7 +5966,7 @@ function defineReactive(obj, key, val, customSetter, shallow, mock) {
             else {
                 val = newVal;
             }
-            childOb = !shallow && observe(newVal, false, mock);
+            childOb = shallow ? newVal && newVal.__ob__ : observe(newVal, false, mock);
             if (true) {
                 dep.notify({
                     type: "set" /* TriggerOpTypes.SET */,
@@ -7268,11 +7445,10 @@ function renderMixin(Vue) {
         // to the data on the placeholder node.
         vm.$vnode = _parentVnode;
         // render self
+        var prevInst = currentInstance;
+        var prevRenderInst = currentRenderingInstance;
         var vnode;
         try {
-            // There's no need to maintain a stack because all render fns are called
-            // separately from one another. Nested component's render fns are called
-            // when parent component is patched.
             setCurrentInstance(vm);
             currentRenderingInstance = vm;
             vnode = render.call(vm._renderProxy, vm.$createElement);
@@ -7296,8 +7472,8 @@ function renderMixin(Vue) {
             }
         }
         finally {
-            currentRenderingInstance = null;
-            setCurrentInstance();
+            currentRenderingInstance = prevRenderInst;
+            setCurrentInstance(prevInst);
         }
         // if the returned array contains only a single node, allow it
         if (isArray(vnode) && vnode.length === 1) {
@@ -7561,6 +7737,112 @@ function eventsMixin(Vue) {
         }
         return vm;
     };
+}
+
+var activeEffectScope;
+var EffectScope = /** @class */ (function () {
+    function EffectScope(detached) {
+        if (detached === void 0) { detached = false; }
+        this.detached = detached;
+        /**
+         * @internal
+         */
+        this.active = true;
+        /**
+         * @internal
+         */
+        this.effects = [];
+        /**
+         * @internal
+         */
+        this.cleanups = [];
+        this.parent = activeEffectScope;
+        if (!detached && activeEffectScope) {
+            this.index =
+                (activeEffectScope.scopes || (activeEffectScope.scopes = [])).push(this) - 1;
+        }
+    }
+    EffectScope.prototype.run = function (fn) {
+        if (this.active) {
+            var currentEffectScope = activeEffectScope;
+            try {
+                activeEffectScope = this;
+                return fn();
+            }
+            finally {
+                activeEffectScope = currentEffectScope;
+            }
+        }
+        else if (true) {
+            warn$2("cannot run an inactive effect scope.");
+        }
+    };
+    /**
+     * This should only be called on non-detached scopes
+     * @internal
+     */
+    EffectScope.prototype.on = function () {
+        activeEffectScope = this;
+    };
+    /**
+     * This should only be called on non-detached scopes
+     * @internal
+     */
+    EffectScope.prototype.off = function () {
+        activeEffectScope = this.parent;
+    };
+    EffectScope.prototype.stop = function (fromParent) {
+        if (this.active) {
+            var i = void 0, l = void 0;
+            for (i = 0, l = this.effects.length; i < l; i++) {
+                this.effects[i].teardown();
+            }
+            for (i = 0, l = this.cleanups.length; i < l; i++) {
+                this.cleanups[i]();
+            }
+            if (this.scopes) {
+                for (i = 0, l = this.scopes.length; i < l; i++) {
+                    this.scopes[i].stop(true);
+                }
+            }
+            // nested scope, dereference from parent to avoid memory leaks
+            if (!this.detached && this.parent && !fromParent) {
+                // optimized O(1) removal
+                var last = this.parent.scopes.pop();
+                if (last && last !== this) {
+                    this.parent.scopes[this.index] = last;
+                    last.index = this.index;
+                }
+            }
+            this.parent = undefined;
+            this.active = false;
+        }
+    };
+    return EffectScope;
+}());
+function effectScope(detached) {
+    return new EffectScope(detached);
+}
+/**
+ * @internal
+ */
+function recordEffectScope(effect, scope) {
+    if (scope === void 0) { scope = activeEffectScope; }
+    if (scope && scope.active) {
+        scope.effects.push(effect);
+    }
+}
+function getCurrentScope() {
+    return activeEffectScope;
+}
+function onScopeDispose(fn) {
+    if (activeEffectScope) {
+        activeEffectScope.cleanups.push(fn);
+    }
+    else if (true) {
+        warn$2("onScopeDispose() is called when there is no active effect scope" +
+            " to be associated with.");
+    }
 }
 
 var activeInstance = null;
@@ -7865,7 +8147,8 @@ function callHook$1(vm, hook, args, setContext) {
     if (setContext === void 0) { setContext = true; }
     // #7573 disable dep collection when invoking lifecycle hooks
     pushTarget();
-    var prev = currentInstance;
+    var prevInst = currentInstance;
+    var prevScope = getCurrentScope();
     setContext && setCurrentInstance(vm);
     var handlers = vm.$options[hook];
     var info = "".concat(hook, " hook");
@@ -7877,7 +8160,10 @@ function callHook$1(vm, hook, args, setContext) {
     if (vm._hasHookEvent) {
         vm.$emit('hook:' + hook);
     }
-    setContext && setCurrentInstance(prev);
+    if (setContext) {
+        setCurrentInstance(prevInst);
+        prevScope && prevScope.on();
+    }
     popTarget();
 }
 
@@ -8097,7 +8383,10 @@ function doWatch(source, cb, _a) {
     var instance = currentInstance;
     var call = function (fn, type, args) {
         if (args === void 0) { args = null; }
-        return invokeWithErrorHandling(fn, null, args, instance, type);
+        var res = invokeWithErrorHandling(fn, null, args, instance, type);
+        if (deep && res && res.__ob__)
+            res.__ob__.dep.depend();
+        return res;
     };
     var getter;
     var forceTrigger = false;
@@ -8122,6 +8411,7 @@ function doWatch(source, cb, _a) {
                     return s.value;
                 }
                 else if (isReactive(s)) {
+                    s.__ob__.dep.depend();
                     return traverse(s);
                 }
                 else if (isFunction(s)) {
@@ -8263,112 +8553,6 @@ function doWatch(source, cb, _a) {
     return function () {
         watcher.teardown();
     };
-}
-
-var activeEffectScope;
-var EffectScope = /** @class */ (function () {
-    function EffectScope(detached) {
-        if (detached === void 0) { detached = false; }
-        this.detached = detached;
-        /**
-         * @internal
-         */
-        this.active = true;
-        /**
-         * @internal
-         */
-        this.effects = [];
-        /**
-         * @internal
-         */
-        this.cleanups = [];
-        this.parent = activeEffectScope;
-        if (!detached && activeEffectScope) {
-            this.index =
-                (activeEffectScope.scopes || (activeEffectScope.scopes = [])).push(this) - 1;
-        }
-    }
-    EffectScope.prototype.run = function (fn) {
-        if (this.active) {
-            var currentEffectScope = activeEffectScope;
-            try {
-                activeEffectScope = this;
-                return fn();
-            }
-            finally {
-                activeEffectScope = currentEffectScope;
-            }
-        }
-        else if (true) {
-            warn$2("cannot run an inactive effect scope.");
-        }
-    };
-    /**
-     * This should only be called on non-detached scopes
-     * @internal
-     */
-    EffectScope.prototype.on = function () {
-        activeEffectScope = this;
-    };
-    /**
-     * This should only be called on non-detached scopes
-     * @internal
-     */
-    EffectScope.prototype.off = function () {
-        activeEffectScope = this.parent;
-    };
-    EffectScope.prototype.stop = function (fromParent) {
-        if (this.active) {
-            var i = void 0, l = void 0;
-            for (i = 0, l = this.effects.length; i < l; i++) {
-                this.effects[i].teardown();
-            }
-            for (i = 0, l = this.cleanups.length; i < l; i++) {
-                this.cleanups[i]();
-            }
-            if (this.scopes) {
-                for (i = 0, l = this.scopes.length; i < l; i++) {
-                    this.scopes[i].stop(true);
-                }
-            }
-            // nested scope, dereference from parent to avoid memory leaks
-            if (!this.detached && this.parent && !fromParent) {
-                // optimized O(1) removal
-                var last = this.parent.scopes.pop();
-                if (last && last !== this) {
-                    this.parent.scopes[this.index] = last;
-                    last.index = this.index;
-                }
-            }
-            this.parent = undefined;
-            this.active = false;
-        }
-    };
-    return EffectScope;
-}());
-function effectScope(detached) {
-    return new EffectScope(detached);
-}
-/**
- * @internal
- */
-function recordEffectScope(effect, scope) {
-    if (scope === void 0) { scope = activeEffectScope; }
-    if (scope && scope.active) {
-        scope.effects.push(effect);
-    }
-}
-function getCurrentScope() {
-    return activeEffectScope;
-}
-function onScopeDispose(fn) {
-    if (activeEffectScope) {
-        activeEffectScope.cleanups.push(fn);
-    }
-    else if (true) {
-        warn$2("onScopeDispose() is called when there is no active effect scope" +
-            " to be associated with.");
-    }
 }
 
 function provide(key, value) {
@@ -8675,7 +8859,7 @@ function defineAsyncComponent(source) {
     suspensible = _b === void 0 ? false : _b, // in Vue 3 default is true
     userOnError = source.onError;
     if ( true && suspensible) {
-        warn$2("The suspensiblbe option for async components is not supported in Vue2. It is ignored.");
+        warn$2("The suspensible option for async components is not supported in Vue2. It is ignored.");
     }
     var pendingRequest = null;
     var retries = 0;
@@ -8779,7 +8963,7 @@ function onErrorCaptured(hook, target) {
 /**
  * Note: also update dist/vue.runtime.mjs when adding new exports to this file.
  */
-var version = '2.7.14';
+var version = '2.7.16';
 /**
  * @internal type is manually declared in <root>/types/v3-define-component.d.ts
  */
@@ -9097,7 +9281,7 @@ function initProps$1(vm, propsOptions) {
                         "Instead, use a data or computed property based on the prop's " +
                         "value. Prop being mutated: \"".concat(key, "\""), vm);
                 }
-            });
+            }, true /* shallow */);
         }
         else {}
         // static props are already proxied on the component's prototype
@@ -9417,6 +9601,9 @@ function initMixin$1(Vue) {
         vm.__v_skip = true;
         // effect scope
         vm._scope = new EffectScope(true /* detached */);
+        // #13134 edge case where a child component is manually created during the
+        // render of a parent component
+        vm._scope.parent = undefined;
         vm._scope._vm = true;
         // merge options
         if (options && options._isComponent) {
@@ -10665,7 +10852,7 @@ function matches(pattern, name) {
     return false;
 }
 function pruneCache(keepAliveInstance, filter) {
-    var cache = keepAliveInstance.cache, keys = keepAliveInstance.keys, _vnode = keepAliveInstance._vnode;
+    var cache = keepAliveInstance.cache, keys = keepAliveInstance.keys, _vnode = keepAliveInstance._vnode, $vnode = keepAliveInstance.$vnode;
     for (var key in cache) {
         var entry = cache[key];
         if (entry) {
@@ -10675,6 +10862,7 @@ function pruneCache(keepAliveInstance, filter) {
             }
         }
     }
+    $vnode.componentOptions.children = undefined;
 }
 function pruneCacheEntry(cache, key, keys, current) {
     var entry = cache[key];
@@ -10996,7 +11184,7 @@ function isUnknownElement(tag) {
     }
     var el = document.createElement(tag);
     if (tag.indexOf('-') > -1) {
-        // http://stackoverflow.com/a/28210364/1070244
+        // https://stackoverflow.com/a/28210364/1070244
         return (unknownElementCache[tag] =
             el.constructor === window.HTMLUnknownElement ||
                 el.constructor === window.HTMLElement);
@@ -11873,8 +12061,11 @@ function createPatchFunction(backend) {
                             var insert_1 = ancestor.data.hook.insert;
                             if (insert_1.merged) {
                                 // start at index 1 to avoid re-invoking component mounted hook
-                                for (var i_10 = 1; i_10 < insert_1.fns.length; i_10++) {
-                                    insert_1.fns[i_10]();
+                                // clone insert hooks to avoid being mutated during iteration.
+                                // e.g. for customed directives under transition group.
+                                var cloned = insert_1.fns.slice(1);
+                                for (var i_10 = 0; i_10 < cloned.length; i_10++) {
+                                    cloned[i_10]();
                                 }
                             }
                         }
@@ -13013,10 +13204,8 @@ function updateStyle(oldVnode, vnode) {
     }
     for (name in newStyle) {
         cur = newStyle[name];
-        if (cur !== oldStyle[name]) {
-            // ie9 setting to null has no effect, must use empty string
-            setProp(el, name, cur == null ? '' : cur);
-        }
+        // ie9 setting to null has no effect, must use empty string
+        setProp(el, name, cur == null ? '' : cur);
     }
 }
 var style$1 = {
@@ -14265,7 +14454,7 @@ function parseHTML(html, options) {
                         return "continue";
                     }
                 }
-                // http://en.wikipedia.org/wiki/Conditional_comment#Downlevel-revealed_conditional_comment
+                // https://en.wikipedia.org/wiki/Conditional_comment#Downlevel-revealed_conditional_comment
                 if (conditionalComment.test(html)) {
                     var conditionalEnd = html.indexOf(']>');
                     if (conditionalEnd >= 0) {
@@ -16639,10 +16828,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../utils.js */ "./node_modules/axios/lib/utils.js");
+/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../utils.js */ "./node_modules/axios/lib/utils.js");
 /* harmony import */ var _http_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./http.js */ "./node_modules/axios/lib/helpers/null.js");
 /* harmony import */ var _xhr_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./xhr.js */ "./node_modules/axios/lib/adapters/xhr.js");
-/* harmony import */ var _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../core/AxiosError.js */ "./node_modules/axios/lib/core/AxiosError.js");
+/* harmony import */ var _fetch_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./fetch.js */ "./node_modules/axios/lib/adapters/fetch.js");
+/* harmony import */ var _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../core/AxiosError.js */ "./node_modules/axios/lib/core/AxiosError.js");
+
 
 
 
@@ -16650,11 +16841,12 @@ __webpack_require__.r(__webpack_exports__);
 
 const knownAdapters = {
   http: _http_js__WEBPACK_IMPORTED_MODULE_0__["default"],
-  xhr: _xhr_js__WEBPACK_IMPORTED_MODULE_1__["default"]
+  xhr: _xhr_js__WEBPACK_IMPORTED_MODULE_1__["default"],
+  fetch: _fetch_js__WEBPACK_IMPORTED_MODULE_2__["default"]
 }
 
-_utils_js__WEBPACK_IMPORTED_MODULE_2__["default"].forEach(knownAdapters, (fn, value) => {
-  if(fn) {
+_utils_js__WEBPACK_IMPORTED_MODULE_3__["default"].forEach(knownAdapters, (fn, value) => {
+  if (fn) {
     try {
       Object.defineProperty(fn, 'name', {value});
     } catch (e) {
@@ -16664,44 +16856,315 @@ _utils_js__WEBPACK_IMPORTED_MODULE_2__["default"].forEach(knownAdapters, (fn, va
   }
 });
 
+const renderReason = (reason) => `- ${reason}`;
+
+const isResolvedHandle = (adapter) => _utils_js__WEBPACK_IMPORTED_MODULE_3__["default"].isFunction(adapter) || adapter === null || adapter === false;
+
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   getAdapter: (adapters) => {
-    adapters = _utils_js__WEBPACK_IMPORTED_MODULE_2__["default"].isArray(adapters) ? adapters : [adapters];
+    adapters = _utils_js__WEBPACK_IMPORTED_MODULE_3__["default"].isArray(adapters) ? adapters : [adapters];
 
     const {length} = adapters;
     let nameOrAdapter;
     let adapter;
 
+    const rejectedReasons = {};
+
     for (let i = 0; i < length; i++) {
       nameOrAdapter = adapters[i];
-      if((adapter = _utils_js__WEBPACK_IMPORTED_MODULE_2__["default"].isString(nameOrAdapter) ? knownAdapters[nameOrAdapter.toLowerCase()] : nameOrAdapter)) {
+      let id;
+
+      adapter = nameOrAdapter;
+
+      if (!isResolvedHandle(nameOrAdapter)) {
+        adapter = knownAdapters[(id = String(nameOrAdapter)).toLowerCase()];
+
+        if (adapter === undefined) {
+          throw new _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_4__["default"](`Unknown adapter '${id}'`);
+        }
+      }
+
+      if (adapter) {
         break;
       }
+
+      rejectedReasons[id || '#' + i] = adapter;
     }
 
     if (!adapter) {
-      if (adapter === false) {
-        throw new _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_3__["default"](
-          `Adapter ${nameOrAdapter} is not supported by the environment`,
-          'ERR_NOT_SUPPORT'
+
+      const reasons = Object.entries(rejectedReasons)
+        .map(([id, state]) => `adapter ${id} ` +
+          (state === false ? 'is not supported by the environment' : 'is not available in the build')
         );
-      }
 
-      throw new Error(
-        _utils_js__WEBPACK_IMPORTED_MODULE_2__["default"].hasOwnProp(knownAdapters, nameOrAdapter) ?
-          `Adapter '${nameOrAdapter}' is not available in the build` :
-          `Unknown adapter '${nameOrAdapter}'`
+      let s = length ?
+        (reasons.length > 1 ? 'since :\n' + reasons.map(renderReason).join('\n') : ' ' + renderReason(reasons[0])) :
+        'as no adapter specified';
+
+      throw new _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_4__["default"](
+        `There is no suitable adapter to dispatch the request ` + s,
+        'ERR_NOT_SUPPORT'
       );
-    }
-
-    if (!_utils_js__WEBPACK_IMPORTED_MODULE_2__["default"].isFunction(adapter)) {
-      throw new TypeError('adapter is not a function');
     }
 
     return adapter;
   },
   adapters: knownAdapters
 });
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/adapters/fetch.js":
+/*!**************************************************!*\
+  !*** ./node_modules/axios/lib/adapters/fetch.js ***!
+  \**************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _platform_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../platform/index.js */ "./node_modules/axios/lib/platform/index.js");
+/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils.js */ "./node_modules/axios/lib/utils.js");
+/* harmony import */ var _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../core/AxiosError.js */ "./node_modules/axios/lib/core/AxiosError.js");
+/* harmony import */ var _helpers_composeSignals_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../helpers/composeSignals.js */ "./node_modules/axios/lib/helpers/composeSignals.js");
+/* harmony import */ var _helpers_trackStream_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../helpers/trackStream.js */ "./node_modules/axios/lib/helpers/trackStream.js");
+/* harmony import */ var _core_AxiosHeaders_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../core/AxiosHeaders.js */ "./node_modules/axios/lib/core/AxiosHeaders.js");
+/* harmony import */ var _helpers_progressEventReducer_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../helpers/progressEventReducer.js */ "./node_modules/axios/lib/helpers/progressEventReducer.js");
+/* harmony import */ var _helpers_resolveConfig_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../helpers/resolveConfig.js */ "./node_modules/axios/lib/helpers/resolveConfig.js");
+/* harmony import */ var _core_settle_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../core/settle.js */ "./node_modules/axios/lib/core/settle.js");
+
+
+
+
+
+
+
+
+
+
+const isFetchSupported = typeof fetch === 'function' && typeof Request === 'function' && typeof Response === 'function';
+const isReadableStreamSupported = isFetchSupported && typeof ReadableStream === 'function';
+
+// used only inside the fetch adapter
+const encodeText = isFetchSupported && (typeof TextEncoder === 'function' ?
+    ((encoder) => (str) => encoder.encode(str))(new TextEncoder()) :
+    async (str) => new Uint8Array(await new Response(str).arrayBuffer())
+);
+
+const test = (fn, ...args) => {
+  try {
+    return !!fn(...args);
+  } catch (e) {
+    return false
+  }
+}
+
+const supportsRequestStream = isReadableStreamSupported && test(() => {
+  let duplexAccessed = false;
+
+  const hasContentType = new Request(_platform_index_js__WEBPACK_IMPORTED_MODULE_0__["default"].origin, {
+    body: new ReadableStream(),
+    method: 'POST',
+    get duplex() {
+      duplexAccessed = true;
+      return 'half';
+    },
+  }).headers.has('Content-Type');
+
+  return duplexAccessed && !hasContentType;
+});
+
+const DEFAULT_CHUNK_SIZE = 64 * 1024;
+
+const supportsResponseStream = isReadableStreamSupported &&
+  test(() => _utils_js__WEBPACK_IMPORTED_MODULE_1__["default"].isReadableStream(new Response('').body));
+
+
+const resolvers = {
+  stream: supportsResponseStream && ((res) => res.body)
+};
+
+isFetchSupported && (((res) => {
+  ['text', 'arrayBuffer', 'blob', 'formData', 'stream'].forEach(type => {
+    !resolvers[type] && (resolvers[type] = _utils_js__WEBPACK_IMPORTED_MODULE_1__["default"].isFunction(res[type]) ? (res) => res[type]() :
+      (_, config) => {
+        throw new _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_2__["default"](`Response type '${type}' is not supported`, _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_2__["default"].ERR_NOT_SUPPORT, config);
+      })
+  });
+})(new Response));
+
+const getBodyLength = async (body) => {
+  if (body == null) {
+    return 0;
+  }
+
+  if(_utils_js__WEBPACK_IMPORTED_MODULE_1__["default"].isBlob(body)) {
+    return body.size;
+  }
+
+  if(_utils_js__WEBPACK_IMPORTED_MODULE_1__["default"].isSpecCompliantForm(body)) {
+    const _request = new Request(_platform_index_js__WEBPACK_IMPORTED_MODULE_0__["default"].origin, {
+      method: 'POST',
+      body,
+    });
+    return (await _request.arrayBuffer()).byteLength;
+  }
+
+  if(_utils_js__WEBPACK_IMPORTED_MODULE_1__["default"].isArrayBufferView(body) || _utils_js__WEBPACK_IMPORTED_MODULE_1__["default"].isArrayBuffer(body)) {
+    return body.byteLength;
+  }
+
+  if(_utils_js__WEBPACK_IMPORTED_MODULE_1__["default"].isURLSearchParams(body)) {
+    body = body + '';
+  }
+
+  if(_utils_js__WEBPACK_IMPORTED_MODULE_1__["default"].isString(body)) {
+    return (await encodeText(body)).byteLength;
+  }
+}
+
+const resolveBodyLength = async (headers, body) => {
+  const length = _utils_js__WEBPACK_IMPORTED_MODULE_1__["default"].toFiniteNumber(headers.getContentLength());
+
+  return length == null ? getBodyLength(body) : length;
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (isFetchSupported && (async (config) => {
+  let {
+    url,
+    method,
+    data,
+    signal,
+    cancelToken,
+    timeout,
+    onDownloadProgress,
+    onUploadProgress,
+    responseType,
+    headers,
+    withCredentials = 'same-origin',
+    fetchOptions
+  } = (0,_helpers_resolveConfig_js__WEBPACK_IMPORTED_MODULE_3__["default"])(config);
+
+  responseType = responseType ? (responseType + '').toLowerCase() : 'text';
+
+  let composedSignal = (0,_helpers_composeSignals_js__WEBPACK_IMPORTED_MODULE_4__["default"])([signal, cancelToken && cancelToken.toAbortSignal()], timeout);
+
+  let request;
+
+  const unsubscribe = composedSignal && composedSignal.unsubscribe && (() => {
+      composedSignal.unsubscribe();
+  });
+
+  let requestContentLength;
+
+  try {
+    if (
+      onUploadProgress && supportsRequestStream && method !== 'get' && method !== 'head' &&
+      (requestContentLength = await resolveBodyLength(headers, data)) !== 0
+    ) {
+      let _request = new Request(url, {
+        method: 'POST',
+        body: data,
+        duplex: "half"
+      });
+
+      let contentTypeHeader;
+
+      if (_utils_js__WEBPACK_IMPORTED_MODULE_1__["default"].isFormData(data) && (contentTypeHeader = _request.headers.get('content-type'))) {
+        headers.setContentType(contentTypeHeader)
+      }
+
+      if (_request.body) {
+        const [onProgress, flush] = (0,_helpers_progressEventReducer_js__WEBPACK_IMPORTED_MODULE_5__.progressEventDecorator)(
+          requestContentLength,
+          (0,_helpers_progressEventReducer_js__WEBPACK_IMPORTED_MODULE_5__.progressEventReducer)((0,_helpers_progressEventReducer_js__WEBPACK_IMPORTED_MODULE_5__.asyncDecorator)(onUploadProgress))
+        );
+
+        data = (0,_helpers_trackStream_js__WEBPACK_IMPORTED_MODULE_6__.trackStream)(_request.body, DEFAULT_CHUNK_SIZE, onProgress, flush);
+      }
+    }
+
+    if (!_utils_js__WEBPACK_IMPORTED_MODULE_1__["default"].isString(withCredentials)) {
+      withCredentials = withCredentials ? 'include' : 'omit';
+    }
+
+    // Cloudflare Workers throws when credentials are defined
+    // see https://github.com/cloudflare/workerd/issues/902
+    const isCredentialsSupported = "credentials" in Request.prototype;
+    request = new Request(url, {
+      ...fetchOptions,
+      signal: composedSignal,
+      method: method.toUpperCase(),
+      headers: headers.normalize().toJSON(),
+      body: data,
+      duplex: "half",
+      credentials: isCredentialsSupported ? withCredentials : undefined
+    });
+
+    let response = await fetch(request);
+
+    const isStreamResponse = supportsResponseStream && (responseType === 'stream' || responseType === 'response');
+
+    if (supportsResponseStream && (onDownloadProgress || (isStreamResponse && unsubscribe))) {
+      const options = {};
+
+      ['status', 'statusText', 'headers'].forEach(prop => {
+        options[prop] = response[prop];
+      });
+
+      const responseContentLength = _utils_js__WEBPACK_IMPORTED_MODULE_1__["default"].toFiniteNumber(response.headers.get('content-length'));
+
+      const [onProgress, flush] = onDownloadProgress && (0,_helpers_progressEventReducer_js__WEBPACK_IMPORTED_MODULE_5__.progressEventDecorator)(
+        responseContentLength,
+        (0,_helpers_progressEventReducer_js__WEBPACK_IMPORTED_MODULE_5__.progressEventReducer)((0,_helpers_progressEventReducer_js__WEBPACK_IMPORTED_MODULE_5__.asyncDecorator)(onDownloadProgress), true)
+      ) || [];
+
+      response = new Response(
+        (0,_helpers_trackStream_js__WEBPACK_IMPORTED_MODULE_6__.trackStream)(response.body, DEFAULT_CHUNK_SIZE, onProgress, () => {
+          flush && flush();
+          unsubscribe && unsubscribe();
+        }),
+        options
+      );
+    }
+
+    responseType = responseType || 'text';
+
+    let responseData = await resolvers[_utils_js__WEBPACK_IMPORTED_MODULE_1__["default"].findKey(resolvers, responseType) || 'text'](response, config);
+
+    !isStreamResponse && unsubscribe && unsubscribe();
+
+    return await new Promise((resolve, reject) => {
+      (0,_core_settle_js__WEBPACK_IMPORTED_MODULE_7__["default"])(resolve, reject, {
+        data: responseData,
+        headers: _core_AxiosHeaders_js__WEBPACK_IMPORTED_MODULE_8__["default"].from(response.headers),
+        status: response.status,
+        statusText: response.statusText,
+        config,
+        request
+      })
+    })
+  } catch (err) {
+    unsubscribe && unsubscribe();
+
+    if (err && err.name === 'TypeError' && /fetch/i.test(err.message)) {
+      throw Object.assign(
+        new _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_2__["default"]('Network Error', _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_2__["default"].ERR_NETWORK, config, request),
+        {
+          cause: err.cause || err
+        }
+      )
+    }
+
+    throw _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_2__["default"].from(err, err && err.code, config, request);
+  }
+}));
+
+
 
 
 /***/ }),
@@ -16717,19 +17180,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../utils.js */ "./node_modules/axios/lib/utils.js");
-/* harmony import */ var _core_settle_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./../core/settle.js */ "./node_modules/axios/lib/core/settle.js");
-/* harmony import */ var _helpers_cookies_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./../helpers/cookies.js */ "./node_modules/axios/lib/helpers/cookies.js");
-/* harmony import */ var _helpers_buildURL_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./../helpers/buildURL.js */ "./node_modules/axios/lib/helpers/buildURL.js");
-/* harmony import */ var _core_buildFullPath_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../core/buildFullPath.js */ "./node_modules/axios/lib/core/buildFullPath.js");
-/* harmony import */ var _helpers_isURLSameOrigin_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./../helpers/isURLSameOrigin.js */ "./node_modules/axios/lib/helpers/isURLSameOrigin.js");
-/* harmony import */ var _defaults_transitional_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../defaults/transitional.js */ "./node_modules/axios/lib/defaults/transitional.js");
-/* harmony import */ var _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../core/AxiosError.js */ "./node_modules/axios/lib/core/AxiosError.js");
-/* harmony import */ var _cancel_CanceledError_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../cancel/CanceledError.js */ "./node_modules/axios/lib/cancel/CanceledError.js");
-/* harmony import */ var _helpers_parseProtocol_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../helpers/parseProtocol.js */ "./node_modules/axios/lib/helpers/parseProtocol.js");
-/* harmony import */ var _platform_index_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../platform/index.js */ "./node_modules/axios/lib/platform/browser/index.js");
+/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./../utils.js */ "./node_modules/axios/lib/utils.js");
+/* harmony import */ var _core_settle_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../core/settle.js */ "./node_modules/axios/lib/core/settle.js");
+/* harmony import */ var _defaults_transitional_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../defaults/transitional.js */ "./node_modules/axios/lib/defaults/transitional.js");
+/* harmony import */ var _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../core/AxiosError.js */ "./node_modules/axios/lib/core/AxiosError.js");
+/* harmony import */ var _cancel_CanceledError_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../cancel/CanceledError.js */ "./node_modules/axios/lib/cancel/CanceledError.js");
+/* harmony import */ var _helpers_parseProtocol_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../helpers/parseProtocol.js */ "./node_modules/axios/lib/helpers/parseProtocol.js");
+/* harmony import */ var _platform_index_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../platform/index.js */ "./node_modules/axios/lib/platform/index.js");
 /* harmony import */ var _core_AxiosHeaders_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../core/AxiosHeaders.js */ "./node_modules/axios/lib/core/AxiosHeaders.js");
-/* harmony import */ var _helpers_speedometer_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../helpers/speedometer.js */ "./node_modules/axios/lib/helpers/speedometer.js");
+/* harmony import */ var _helpers_progressEventReducer_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../helpers/progressEventReducer.js */ "./node_modules/axios/lib/helpers/progressEventReducer.js");
+/* harmony import */ var _helpers_resolveConfig_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../helpers/resolveConfig.js */ "./node_modules/axios/lib/helpers/resolveConfig.js");
 
 
 
@@ -16740,78 +17200,34 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
-
-
-
-
-
-function progressEventReducer(listener, isDownloadStream) {
-  let bytesNotified = 0;
-  const _speedometer = (0,_helpers_speedometer_js__WEBPACK_IMPORTED_MODULE_0__["default"])(50, 250);
-
-  return e => {
-    const loaded = e.loaded;
-    const total = e.lengthComputable ? e.total : undefined;
-    const progressBytes = loaded - bytesNotified;
-    const rate = _speedometer(progressBytes);
-    const inRange = loaded <= total;
-
-    bytesNotified = loaded;
-
-    const data = {
-      loaded,
-      total,
-      progress: total ? (loaded / total) : undefined,
-      bytes: progressBytes,
-      rate: rate ? rate : undefined,
-      estimated: rate && total && inRange ? (total - loaded) / rate : undefined,
-      event: e
-    };
-
-    data[isDownloadStream ? 'download' : 'upload'] = true;
-
-    listener(data);
-  };
-}
 
 const isXHRAdapterSupported = typeof XMLHttpRequest !== 'undefined';
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (isXHRAdapterSupported && function (config) {
   return new Promise(function dispatchXhrRequest(resolve, reject) {
-    let requestData = config.data;
-    const requestHeaders = _core_AxiosHeaders_js__WEBPACK_IMPORTED_MODULE_1__["default"].from(config.headers).normalize();
-    const responseType = config.responseType;
+    const _config = (0,_helpers_resolveConfig_js__WEBPACK_IMPORTED_MODULE_0__["default"])(config);
+    let requestData = _config.data;
+    const requestHeaders = _core_AxiosHeaders_js__WEBPACK_IMPORTED_MODULE_1__["default"].from(_config.headers).normalize();
+    let {responseType, onUploadProgress, onDownloadProgress} = _config;
     let onCanceled;
+    let uploadThrottled, downloadThrottled;
+    let flushUpload, flushDownload;
+
     function done() {
-      if (config.cancelToken) {
-        config.cancelToken.unsubscribe(onCanceled);
-      }
+      flushUpload && flushUpload(); // flush events
+      flushDownload && flushDownload(); // flush events
 
-      if (config.signal) {
-        config.signal.removeEventListener('abort', onCanceled);
-      }
-    }
+      _config.cancelToken && _config.cancelToken.unsubscribe(onCanceled);
 
-    if (_utils_js__WEBPACK_IMPORTED_MODULE_2__["default"].isFormData(requestData) && (_platform_index_js__WEBPACK_IMPORTED_MODULE_3__["default"].isStandardBrowserEnv || _platform_index_js__WEBPACK_IMPORTED_MODULE_3__["default"].isStandardBrowserWebWorkerEnv)) {
-      requestHeaders.setContentType(false); // Let the browser set it
+      _config.signal && _config.signal.removeEventListener('abort', onCanceled);
     }
 
     let request = new XMLHttpRequest();
 
-    // HTTP basic authentication
-    if (config.auth) {
-      const username = config.auth.username || '';
-      const password = config.auth.password ? unescape(encodeURIComponent(config.auth.password)) : '';
-      requestHeaders.set('Authorization', 'Basic ' + btoa(username + ':' + password));
-    }
-
-    const fullPath = (0,_core_buildFullPath_js__WEBPACK_IMPORTED_MODULE_4__["default"])(config.baseURL, config.url);
-
-    request.open(config.method.toUpperCase(), (0,_helpers_buildURL_js__WEBPACK_IMPORTED_MODULE_5__["default"])(fullPath, config.params, config.paramsSerializer), true);
+    request.open(_config.method.toUpperCase(), _config.url, true);
 
     // Set the request timeout in MS
-    request.timeout = config.timeout;
+    request.timeout = _config.timeout;
 
     function onloadend() {
       if (!request) {
@@ -16832,7 +17248,7 @@ const isXHRAdapterSupported = typeof XMLHttpRequest !== 'undefined';
         request
       };
 
-      (0,_core_settle_js__WEBPACK_IMPORTED_MODULE_6__["default"])(function _resolve(value) {
+      (0,_core_settle_js__WEBPACK_IMPORTED_MODULE_2__["default"])(function _resolve(value) {
         resolve(value);
         done();
       }, function _reject(err) {
@@ -16873,7 +17289,7 @@ const isXHRAdapterSupported = typeof XMLHttpRequest !== 'undefined';
         return;
       }
 
-      reject(new _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_7__["default"]('Request aborted', _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_7__["default"].ECONNABORTED, config, request));
+      reject(new _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_3__["default"]('Request aborted', _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_3__["default"].ECONNABORTED, config, request));
 
       // Clean up request
       request = null;
@@ -16883,7 +17299,7 @@ const isXHRAdapterSupported = typeof XMLHttpRequest !== 'undefined';
     request.onerror = function handleError() {
       // Real errors are hidden from us by the browser
       // onerror should only fire if it's a network error
-      reject(new _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_7__["default"]('Network Error', _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_7__["default"].ERR_NETWORK, config, request));
+      reject(new _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_3__["default"]('Network Error', _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_3__["default"].ERR_NETWORK, config, request));
 
       // Clean up request
       request = null;
@@ -16891,14 +17307,14 @@ const isXHRAdapterSupported = typeof XMLHttpRequest !== 'undefined';
 
     // Handle timeout
     request.ontimeout = function handleTimeout() {
-      let timeoutErrorMessage = config.timeout ? 'timeout of ' + config.timeout + 'ms exceeded' : 'timeout exceeded';
-      const transitional = config.transitional || _defaults_transitional_js__WEBPACK_IMPORTED_MODULE_8__["default"];
-      if (config.timeoutErrorMessage) {
-        timeoutErrorMessage = config.timeoutErrorMessage;
+      let timeoutErrorMessage = _config.timeout ? 'timeout of ' + _config.timeout + 'ms exceeded' : 'timeout exceeded';
+      const transitional = _config.transitional || _defaults_transitional_js__WEBPACK_IMPORTED_MODULE_4__["default"];
+      if (_config.timeoutErrorMessage) {
+        timeoutErrorMessage = _config.timeoutErrorMessage;
       }
-      reject(new _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_7__["default"](
+      reject(new _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_3__["default"](
         timeoutErrorMessage,
-        transitional.clarifyTimeoutError ? _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_7__["default"].ETIMEDOUT : _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_7__["default"].ECONNABORTED,
+        transitional.clarifyTimeoutError ? _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_3__["default"].ETIMEDOUT : _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_3__["default"].ECONNABORTED,
         config,
         request));
 
@@ -16906,71 +17322,63 @@ const isXHRAdapterSupported = typeof XMLHttpRequest !== 'undefined';
       request = null;
     };
 
-    // Add xsrf header
-    // This is only done if running in a standard browser environment.
-    // Specifically not if we're in a web worker, or react-native.
-    if (_platform_index_js__WEBPACK_IMPORTED_MODULE_3__["default"].isStandardBrowserEnv) {
-      // Add xsrf header
-      const xsrfValue = (config.withCredentials || (0,_helpers_isURLSameOrigin_js__WEBPACK_IMPORTED_MODULE_9__["default"])(fullPath))
-        && config.xsrfCookieName && _helpers_cookies_js__WEBPACK_IMPORTED_MODULE_10__["default"].read(config.xsrfCookieName);
-
-      if (xsrfValue) {
-        requestHeaders.set(config.xsrfHeaderName, xsrfValue);
-      }
-    }
-
     // Remove Content-Type if data is undefined
     requestData === undefined && requestHeaders.setContentType(null);
 
     // Add headers to the request
     if ('setRequestHeader' in request) {
-      _utils_js__WEBPACK_IMPORTED_MODULE_2__["default"].forEach(requestHeaders.toJSON(), function setRequestHeader(val, key) {
+      _utils_js__WEBPACK_IMPORTED_MODULE_5__["default"].forEach(requestHeaders.toJSON(), function setRequestHeader(val, key) {
         request.setRequestHeader(key, val);
       });
     }
 
     // Add withCredentials to request if needed
-    if (!_utils_js__WEBPACK_IMPORTED_MODULE_2__["default"].isUndefined(config.withCredentials)) {
-      request.withCredentials = !!config.withCredentials;
+    if (!_utils_js__WEBPACK_IMPORTED_MODULE_5__["default"].isUndefined(_config.withCredentials)) {
+      request.withCredentials = !!_config.withCredentials;
     }
 
     // Add responseType to request if needed
     if (responseType && responseType !== 'json') {
-      request.responseType = config.responseType;
+      request.responseType = _config.responseType;
     }
 
     // Handle progress if needed
-    if (typeof config.onDownloadProgress === 'function') {
-      request.addEventListener('progress', progressEventReducer(config.onDownloadProgress, true));
+    if (onDownloadProgress) {
+      ([downloadThrottled, flushDownload] = (0,_helpers_progressEventReducer_js__WEBPACK_IMPORTED_MODULE_6__.progressEventReducer)(onDownloadProgress, true));
+      request.addEventListener('progress', downloadThrottled);
     }
 
     // Not all browsers support upload events
-    if (typeof config.onUploadProgress === 'function' && request.upload) {
-      request.upload.addEventListener('progress', progressEventReducer(config.onUploadProgress));
+    if (onUploadProgress && request.upload) {
+      ([uploadThrottled, flushUpload] = (0,_helpers_progressEventReducer_js__WEBPACK_IMPORTED_MODULE_6__.progressEventReducer)(onUploadProgress));
+
+      request.upload.addEventListener('progress', uploadThrottled);
+
+      request.upload.addEventListener('loadend', flushUpload);
     }
 
-    if (config.cancelToken || config.signal) {
+    if (_config.cancelToken || _config.signal) {
       // Handle cancellation
       // eslint-disable-next-line func-names
       onCanceled = cancel => {
         if (!request) {
           return;
         }
-        reject(!cancel || cancel.type ? new _cancel_CanceledError_js__WEBPACK_IMPORTED_MODULE_11__["default"](null, config, request) : cancel);
+        reject(!cancel || cancel.type ? new _cancel_CanceledError_js__WEBPACK_IMPORTED_MODULE_7__["default"](null, config, request) : cancel);
         request.abort();
         request = null;
       };
 
-      config.cancelToken && config.cancelToken.subscribe(onCanceled);
-      if (config.signal) {
-        config.signal.aborted ? onCanceled() : config.signal.addEventListener('abort', onCanceled);
+      _config.cancelToken && _config.cancelToken.subscribe(onCanceled);
+      if (_config.signal) {
+        _config.signal.aborted ? onCanceled() : _config.signal.addEventListener('abort', onCanceled);
       }
     }
 
-    const protocol = (0,_helpers_parseProtocol_js__WEBPACK_IMPORTED_MODULE_12__["default"])(fullPath);
+    const protocol = (0,_helpers_parseProtocol_js__WEBPACK_IMPORTED_MODULE_8__["default"])(_config.url);
 
-    if (protocol && _platform_index_js__WEBPACK_IMPORTED_MODULE_3__["default"].protocols.indexOf(protocol) === -1) {
-      reject(new _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_7__["default"]('Unsupported protocol ' + protocol + ':', _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_7__["default"].ERR_BAD_REQUEST, config));
+    if (protocol && _platform_index_js__WEBPACK_IMPORTED_MODULE_9__["default"].protocols.indexOf(protocol) === -1) {
+      reject(new _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_3__["default"]('Unsupported protocol ' + protocol + ':', _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_3__["default"].ERR_BAD_REQUEST, config));
       return;
     }
 
@@ -17009,7 +17417,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _helpers_spread_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./helpers/spread.js */ "./node_modules/axios/lib/helpers/spread.js");
 /* harmony import */ var _helpers_isAxiosError_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./helpers/isAxiosError.js */ "./node_modules/axios/lib/helpers/isAxiosError.js");
 /* harmony import */ var _core_AxiosHeaders_js__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./core/AxiosHeaders.js */ "./node_modules/axios/lib/core/AxiosHeaders.js");
-/* harmony import */ var _helpers_HttpStatusCode_js__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./helpers/HttpStatusCode.js */ "./node_modules/axios/lib/helpers/HttpStatusCode.js");
+/* harmony import */ var _adapters_adapters_js__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./adapters/adapters.js */ "./node_modules/axios/lib/adapters/adapters.js");
+/* harmony import */ var _helpers_HttpStatusCode_js__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./helpers/HttpStatusCode.js */ "./node_modules/axios/lib/helpers/HttpStatusCode.js");
+
 
 
 
@@ -17090,7 +17500,9 @@ axios.AxiosHeaders = _core_AxiosHeaders_js__WEBPACK_IMPORTED_MODULE_13__["defaul
 
 axios.formToJSON = thing => (0,_helpers_formDataToJSON_js__WEBPACK_IMPORTED_MODULE_14__["default"])(_utils_js__WEBPACK_IMPORTED_MODULE_2__["default"].isHTMLForm(thing) ? new FormData(thing) : thing);
 
-axios.HttpStatusCode = _helpers_HttpStatusCode_js__WEBPACK_IMPORTED_MODULE_15__["default"];
+axios.getAdapter = _adapters_adapters_js__WEBPACK_IMPORTED_MODULE_15__["default"].getAdapter;
+
+axios.HttpStatusCode = _helpers_HttpStatusCode_js__WEBPACK_IMPORTED_MODULE_16__["default"];
 
 axios.default = axios;
 
@@ -17214,6 +17626,20 @@ class CancelToken {
     if (index !== -1) {
       this._listeners.splice(index, 1);
     }
+  }
+
+  toAbortSignal() {
+    const controller = new AbortController();
+
+    const abort = (err) => {
+      controller.abort(err);
+    };
+
+    this.subscribe(abort);
+
+    controller.signal.unsubscribe = () => this.unsubscribe(abort);
+
+    return controller.signal;
   }
 
   /**
@@ -17355,7 +17781,34 @@ class Axios {
    *
    * @returns {Promise} The Promise to be fulfilled
    */
-  request(configOrUrl, config) {
+  async request(configOrUrl, config) {
+    try {
+      return await this._request(configOrUrl, config);
+    } catch (err) {
+      if (err instanceof Error) {
+        let dummy;
+
+        Error.captureStackTrace ? Error.captureStackTrace(dummy = {}) : (dummy = new Error());
+
+        // slice off the Error: ... line
+        const stack = dummy.stack ? dummy.stack.replace(/^.+\n/, '') : '';
+        try {
+          if (!err.stack) {
+            err.stack = stack;
+            // match without the 2 top stack lines
+          } else if (stack && !String(err.stack).endsWith(stack.replace(/^.+\n.+\n/, ''))) {
+            err.stack += '\n' + stack
+          }
+        } catch (e) {
+          // ignore the case where "stack" is an un-writable property
+        }
+      }
+
+      throw err;
+    }
+  }
+
+  _request(configOrUrl, config) {
     /*eslint no-param-reassign:0*/
     // Allow for axios('example/url'[, config]) a la fetch API
     if (typeof configOrUrl === 'string') {
@@ -17377,25 +17830,29 @@ class Axios {
       }, false);
     }
 
-    if (paramsSerializer !== undefined) {
-      _helpers_validator_js__WEBPACK_IMPORTED_MODULE_0__["default"].assertOptions(paramsSerializer, {
-        encode: validators.function,
-        serialize: validators.function
-      }, true);
+    if (paramsSerializer != null) {
+      if (_utils_js__WEBPACK_IMPORTED_MODULE_3__["default"].isFunction(paramsSerializer)) {
+        config.paramsSerializer = {
+          serialize: paramsSerializer
+        }
+      } else {
+        _helpers_validator_js__WEBPACK_IMPORTED_MODULE_0__["default"].assertOptions(paramsSerializer, {
+          encode: validators.function,
+          serialize: validators.function
+        }, true);
+      }
     }
 
     // Set config.method
     config.method = (config.method || this.defaults.method || 'get').toLowerCase();
 
-    let contextHeaders;
-
     // Flatten headers
-    contextHeaders = headers && _utils_js__WEBPACK_IMPORTED_MODULE_3__["default"].merge(
+    let contextHeaders = headers && _utils_js__WEBPACK_IMPORTED_MODULE_3__["default"].merge(
       headers.common,
       headers[config.method]
     );
 
-    contextHeaders && _utils_js__WEBPACK_IMPORTED_MODULE_3__["default"].forEach(
+    headers && _utils_js__WEBPACK_IMPORTED_MODULE_3__["default"].forEach(
       ['delete', 'get', 'head', 'post', 'put', 'patch', 'common'],
       (method) => {
         delete headers[method];
@@ -17560,7 +18017,10 @@ function AxiosError(message, code, config, request, response) {
   code && (this.code = code);
   config && (this.config = config);
   request && (this.request = request);
-  response && (this.response = response);
+  if (response) {
+    this.response = response;
+    this.status = response.status ? response.status : null;
+  }
 }
 
 _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].inherits(AxiosError, Error, {
@@ -17580,7 +18040,7 @@ _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].inherits(AxiosError, Error, {
       // Axios
       config: _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].toJSONObject(this.config),
       code: this.code,
-      status: this.response && this.response.status ? this.response.status : null
+      status: this.status
     };
   }
 });
@@ -17679,9 +18139,7 @@ function parseTokens(str) {
   return tokens;
 }
 
-function isValidHeaderName(str) {
-  return /^[-_a-zA-Z]+$/.test(str.trim());
-}
+const isValidHeaderName = (str) => /^[-_a-zA-Z0-9^`|~,!#$%&'*+.]+$/.test(str.trim());
 
 function matchHeaderValue(context, value, header, filter, isHeaderNameFilter) {
   if (_utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].isFunction(filter)) {
@@ -17752,6 +18210,10 @@ class AxiosHeaders {
       setHeaders(header, valueOrRewrite)
     } else if(_utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].isString(header) && (header = header.trim()) && !isValidHeaderName(header)) {
       setHeaders((0,_helpers_parseHeaders_js__WEBPACK_IMPORTED_MODULE_1__["default"])(header), valueOrRewrite);
+    } else if (_utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].isHeaders(header)) {
+      for (const [key, value] of header.entries()) {
+        setHeader(value, key, rewrite);
+      }
     } else {
       header != null && setHeader(valueOrRewrite, header, rewrite);
     }
@@ -17934,7 +18396,17 @@ class AxiosHeaders {
 
 AxiosHeaders.accessor(['Content-Type', 'Content-Length', 'Accept', 'Accept-Encoding', 'User-Agent', 'Authorization']);
 
-_utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].freezeMethods(AxiosHeaders.prototype);
+// reserved names hotfix
+_utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].reduceDescriptors(AxiosHeaders.prototype, ({value}, key) => {
+  let mapped = key[0].toUpperCase() + key.slice(1); // map `set` => `Set`
+  return {
+    get: () => value,
+    set(headerValue) {
+      this[mapped] = headerValue;
+    }
+  }
+});
+
 _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].freezeMethods(AxiosHeaders);
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (AxiosHeaders);
@@ -18187,7 +18659,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const headersToObject = (thing) => thing instanceof _AxiosHeaders_js__WEBPACK_IMPORTED_MODULE_0__["default"] ? thing.toJSON() : thing;
+const headersToObject = (thing) => thing instanceof _AxiosHeaders_js__WEBPACK_IMPORTED_MODULE_0__["default"] ? { ...thing } : thing;
 
 /**
  * Config-specific merge-function which creates a new config-object
@@ -18259,6 +18731,7 @@ function mergeConfig(config1, config2) {
     timeout: defaultToConfig2,
     timeoutMessage: defaultToConfig2,
     withCredentials: defaultToConfig2,
+    withXSRFToken: defaultToConfig2,
     adapter: defaultToConfig2,
     responseType: defaultToConfig2,
     xsrfCookieName: defaultToConfig2,
@@ -18279,7 +18752,7 @@ function mergeConfig(config1, config2) {
     headers: (a, b) => mergeDeepProperties(headersToObject(a), headersToObject(b), true)
   };
 
-  _utils_js__WEBPACK_IMPORTED_MODULE_1__["default"].forEach(Object.keys(config1).concat(Object.keys(config2)), function computeConfigValue(prop) {
+  _utils_js__WEBPACK_IMPORTED_MODULE_1__["default"].forEach(Object.keys(Object.assign({}, config1, config2)), function computeConfigValue(prop) {
     const merge = mergeMap[prop] || mergeDeepProperties;
     const configValue = merge(config1[prop], config2[prop], prop);
     (_utils_js__WEBPACK_IMPORTED_MODULE_1__["default"].isUndefined(configValue) && merge !== mergeDirectKeys) || (config[prop] = configValue);
@@ -18396,7 +18869,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _transitional_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./transitional.js */ "./node_modules/axios/lib/defaults/transitional.js");
 /* harmony import */ var _helpers_toFormData_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../helpers/toFormData.js */ "./node_modules/axios/lib/helpers/toFormData.js");
 /* harmony import */ var _helpers_toURLEncodedForm_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../helpers/toURLEncodedForm.js */ "./node_modules/axios/lib/helpers/toURLEncodedForm.js");
-/* harmony import */ var _platform_index_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../platform/index.js */ "./node_modules/axios/lib/platform/browser/index.js");
+/* harmony import */ var _platform_index_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../platform/index.js */ "./node_modules/axios/lib/platform/index.js");
 /* harmony import */ var _helpers_formDataToJSON_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../helpers/formDataToJSON.js */ "./node_modules/axios/lib/helpers/formDataToJSON.js");
 
 
@@ -18407,10 +18880,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
-const DEFAULT_CONTENT_TYPE = {
-  'Content-Type': undefined
-};
 
 /**
  * It takes a string, tries to parse it, and if it fails, it returns the stringified version
@@ -18441,7 +18910,7 @@ const defaults = {
 
   transitional: _transitional_js__WEBPACK_IMPORTED_MODULE_1__["default"],
 
-  adapter: ['xhr', 'http'],
+  adapter: ['xhr', 'http', 'fetch'],
 
   transformRequest: [function transformRequest(data, headers) {
     const contentType = headers.getContentType() || '';
@@ -18455,9 +18924,6 @@ const defaults = {
     const isFormData = _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].isFormData(data);
 
     if (isFormData) {
-      if (!hasJSONContentType) {
-        return data;
-      }
       return hasJSONContentType ? JSON.stringify((0,_helpers_formDataToJSON_js__WEBPACK_IMPORTED_MODULE_2__["default"])(data)) : data;
     }
 
@@ -18465,7 +18931,8 @@ const defaults = {
       _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].isBuffer(data) ||
       _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].isStream(data) ||
       _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].isFile(data) ||
-      _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].isBlob(data)
+      _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].isBlob(data) ||
+      _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].isReadableStream(data)
     ) {
       return data;
     }
@@ -18507,6 +18974,10 @@ const defaults = {
     const transitional = this.transitional || defaults.transitional;
     const forcedJSONParsing = transitional && transitional.forcedJSONParsing;
     const JSONRequested = this.responseType === 'json';
+
+    if (_utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].isResponse(data) || _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].isReadableStream(data)) {
+      return data;
+    }
 
     if (data && _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].isString(data) && ((forcedJSONParsing && !this.responseType) || JSONRequested)) {
       const silentJSONParsing = transitional && transitional.silentJSONParsing;
@@ -18550,17 +19021,14 @@ const defaults = {
 
   headers: {
     common: {
-      'Accept': 'application/json, text/plain, */*'
+      'Accept': 'application/json, text/plain, */*',
+      'Content-Type': undefined
     }
   }
 };
 
-_utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].forEach(['delete', 'get', 'head'], function forEachMethodNoData(method) {
+_utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].forEach(['delete', 'get', 'head', 'post', 'put', 'patch'], (method) => {
   defaults.headers[method] = {};
-});
-
-_utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].forEach(['post', 'put', 'patch'], function forEachMethodWithData(method) {
-  defaults.headers[method] = _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].merge(DEFAULT_CONTENT_TYPE);
 });
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (defaults);
@@ -18599,9 +19067,9 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "VERSION": () => (/* binding */ VERSION)
+/* harmony export */   VERSION: () => (/* binding */ VERSION)
 /* harmony export */ });
-const VERSION = "1.3.4";
+const VERSION = "1.7.7";
 
 /***/ }),
 
@@ -18890,9 +19358,75 @@ __webpack_require__.r(__webpack_exports__);
  */
 function combineURLs(baseURL, relativeURL) {
   return relativeURL
-    ? baseURL.replace(/\/+$/, '') + '/' + relativeURL.replace(/^\/+/, '')
+    ? baseURL.replace(/\/?\/$/, '') + '/' + relativeURL.replace(/^\/+/, '')
     : baseURL;
 }
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/helpers/composeSignals.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/axios/lib/helpers/composeSignals.js ***!
+  \**********************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _cancel_CanceledError_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../cancel/CanceledError.js */ "./node_modules/axios/lib/cancel/CanceledError.js");
+/* harmony import */ var _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../core/AxiosError.js */ "./node_modules/axios/lib/core/AxiosError.js");
+/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../utils.js */ "./node_modules/axios/lib/utils.js");
+
+
+
+
+const composeSignals = (signals, timeout) => {
+  const {length} = (signals = signals ? signals.filter(Boolean) : []);
+
+  if (timeout || length) {
+    let controller = new AbortController();
+
+    let aborted;
+
+    const onabort = function (reason) {
+      if (!aborted) {
+        aborted = true;
+        unsubscribe();
+        const err = reason instanceof Error ? reason : this.reason;
+        controller.abort(err instanceof _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_0__["default"] ? err : new _cancel_CanceledError_js__WEBPACK_IMPORTED_MODULE_1__["default"](err instanceof Error ? err.message : err));
+      }
+    }
+
+    let timer = timeout && setTimeout(() => {
+      timer = null;
+      onabort(new _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_0__["default"](`timeout ${timeout} of ms exceeded`, _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_0__["default"].ETIMEDOUT))
+    }, timeout)
+
+    const unsubscribe = () => {
+      if (signals) {
+        timer && clearTimeout(timer);
+        timer = null;
+        signals.forEach(signal => {
+          signal.unsubscribe ? signal.unsubscribe(onabort) : signal.removeEventListener('abort', onabort);
+        });
+        signals = null;
+      }
+    }
+
+    signals.forEach((signal) => signal.addEventListener('abort', onabort));
+
+    const {signal} = controller;
+
+    signal.unsubscribe = () => _utils_js__WEBPACK_IMPORTED_MODULE_2__["default"].asap(unsubscribe);
+
+    return signal;
+  }
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (composeSignals);
 
 
 /***/ }),
@@ -18909,59 +19443,49 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../utils.js */ "./node_modules/axios/lib/utils.js");
-/* harmony import */ var _platform_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../platform/index.js */ "./node_modules/axios/lib/platform/browser/index.js");
+/* harmony import */ var _platform_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../platform/index.js */ "./node_modules/axios/lib/platform/index.js");
 
 
 
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_platform_index_js__WEBPACK_IMPORTED_MODULE_0__["default"].hasStandardBrowserEnv ?
 
+  // Standard browser envs support document.cookie
+  {
+    write(name, value, expires, path, domain, secure) {
+      const cookie = [name + '=' + encodeURIComponent(value)];
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_platform_index_js__WEBPACK_IMPORTED_MODULE_0__["default"].isStandardBrowserEnv ?
+      _utils_js__WEBPACK_IMPORTED_MODULE_1__["default"].isNumber(expires) && cookie.push('expires=' + new Date(expires).toGMTString());
 
-// Standard browser envs support document.cookie
-  (function standardBrowserEnv() {
-    return {
-      write: function write(name, value, expires, path, domain, secure) {
-        const cookie = [];
-        cookie.push(name + '=' + encodeURIComponent(value));
+      _utils_js__WEBPACK_IMPORTED_MODULE_1__["default"].isString(path) && cookie.push('path=' + path);
 
-        if (_utils_js__WEBPACK_IMPORTED_MODULE_1__["default"].isNumber(expires)) {
-          cookie.push('expires=' + new Date(expires).toGMTString());
-        }
+      _utils_js__WEBPACK_IMPORTED_MODULE_1__["default"].isString(domain) && cookie.push('domain=' + domain);
 
-        if (_utils_js__WEBPACK_IMPORTED_MODULE_1__["default"].isString(path)) {
-          cookie.push('path=' + path);
-        }
+      secure === true && cookie.push('secure');
 
-        if (_utils_js__WEBPACK_IMPORTED_MODULE_1__["default"].isString(domain)) {
-          cookie.push('domain=' + domain);
-        }
+      document.cookie = cookie.join('; ');
+    },
 
-        if (secure === true) {
-          cookie.push('secure');
-        }
+    read(name) {
+      const match = document.cookie.match(new RegExp('(^|;\\s*)(' + name + ')=([^;]*)'));
+      return (match ? decodeURIComponent(match[3]) : null);
+    },
 
-        document.cookie = cookie.join('; ');
-      },
+    remove(name) {
+      this.write(name, '', Date.now() - 86400000);
+    }
+  }
 
-      read: function read(name) {
-        const match = document.cookie.match(new RegExp('(^|;\\s*)(' + name + ')=([^;]*)'));
-        return (match ? decodeURIComponent(match[3]) : null);
-      },
+  :
 
-      remove: function remove(name) {
-        this.write(name, '', Date.now() - 86400000);
-      }
-    };
-  })() :
+  // Non-standard browser env (web workers, react-native) lack needed support.
+  {
+    write() {},
+    read() {
+      return null;
+    },
+    remove() {}
+  });
 
-// Non standard browser env (web workers, react-native) lack needed support.
-  (function nonStandardBrowserEnv() {
-    return {
-      write: function write() {},
-      read: function read() { return null; },
-      remove: function remove() {}
-    };
-  })());
 
 
 /***/ }),
@@ -19029,6 +19553,9 @@ function arrayToObject(arr) {
 function formDataToJSON(formData) {
   function buildPath(path, value, target, index) {
     let name = path[index++];
+
+    if (name === '__proto__') return true;
+
     const isNumericKey = Number.isFinite(+name);
     const isLast = index >= path.length;
     name = !name && _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].isArray(target) ? target.length : name;
@@ -19146,23 +19673,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../utils.js */ "./node_modules/axios/lib/utils.js");
-/* harmony import */ var _platform_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../platform/index.js */ "./node_modules/axios/lib/platform/browser/index.js");
+/* harmony import */ var _platform_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../platform/index.js */ "./node_modules/axios/lib/platform/index.js");
 
 
 
 
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_platform_index_js__WEBPACK_IMPORTED_MODULE_0__["default"].isStandardBrowserEnv ?
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_platform_index_js__WEBPACK_IMPORTED_MODULE_0__["default"].hasStandardBrowserEnv ?
 
 // Standard browser envs have full support of the APIs needed to test
 // whether the request URL is of the same origin as current location.
   (function standardBrowserEnv() {
-    const msie = /(msie|trident)/i.test(navigator.userAgent);
+    const msie = _platform_index_js__WEBPACK_IMPORTED_MODULE_0__["default"].navigator && /(msie|trident)/i.test(_platform_index_js__WEBPACK_IMPORTED_MODULE_0__["default"].navigator.userAgent);
     const urlParsingNode = document.createElement('a');
     let originURL;
 
     /**
-    * Parse a URL to discover it's components
+    * Parse a URL to discover its components
     *
     * @param {String} url The URL to be parsed
     * @returns {Object}
@@ -19327,6 +19854,150 @@ function parseProtocol(url) {
 
 /***/ }),
 
+/***/ "./node_modules/axios/lib/helpers/progressEventReducer.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/axios/lib/helpers/progressEventReducer.js ***!
+  \****************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   asyncDecorator: () => (/* binding */ asyncDecorator),
+/* harmony export */   progressEventDecorator: () => (/* binding */ progressEventDecorator),
+/* harmony export */   progressEventReducer: () => (/* binding */ progressEventReducer)
+/* harmony export */ });
+/* harmony import */ var _speedometer_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./speedometer.js */ "./node_modules/axios/lib/helpers/speedometer.js");
+/* harmony import */ var _throttle_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./throttle.js */ "./node_modules/axios/lib/helpers/throttle.js");
+/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../utils.js */ "./node_modules/axios/lib/utils.js");
+
+
+
+
+const progressEventReducer = (listener, isDownloadStream, freq = 3) => {
+  let bytesNotified = 0;
+  const _speedometer = (0,_speedometer_js__WEBPACK_IMPORTED_MODULE_0__["default"])(50, 250);
+
+  return (0,_throttle_js__WEBPACK_IMPORTED_MODULE_1__["default"])(e => {
+    const loaded = e.loaded;
+    const total = e.lengthComputable ? e.total : undefined;
+    const progressBytes = loaded - bytesNotified;
+    const rate = _speedometer(progressBytes);
+    const inRange = loaded <= total;
+
+    bytesNotified = loaded;
+
+    const data = {
+      loaded,
+      total,
+      progress: total ? (loaded / total) : undefined,
+      bytes: progressBytes,
+      rate: rate ? rate : undefined,
+      estimated: rate && total && inRange ? (total - loaded) / rate : undefined,
+      event: e,
+      lengthComputable: total != null,
+      [isDownloadStream ? 'download' : 'upload']: true
+    };
+
+    listener(data);
+  }, freq);
+}
+
+const progressEventDecorator = (total, throttled) => {
+  const lengthComputable = total != null;
+
+  return [(loaded) => throttled[0]({
+    lengthComputable,
+    total,
+    loaded
+  }), throttled[1]];
+}
+
+const asyncDecorator = (fn) => (...args) => _utils_js__WEBPACK_IMPORTED_MODULE_2__["default"].asap(() => fn(...args));
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/helpers/resolveConfig.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/axios/lib/helpers/resolveConfig.js ***!
+  \*********************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _platform_index_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../platform/index.js */ "./node_modules/axios/lib/platform/index.js");
+/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../utils.js */ "./node_modules/axios/lib/utils.js");
+/* harmony import */ var _isURLSameOrigin_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./isURLSameOrigin.js */ "./node_modules/axios/lib/helpers/isURLSameOrigin.js");
+/* harmony import */ var _cookies_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./cookies.js */ "./node_modules/axios/lib/helpers/cookies.js");
+/* harmony import */ var _core_buildFullPath_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../core/buildFullPath.js */ "./node_modules/axios/lib/core/buildFullPath.js");
+/* harmony import */ var _core_mergeConfig_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../core/mergeConfig.js */ "./node_modules/axios/lib/core/mergeConfig.js");
+/* harmony import */ var _core_AxiosHeaders_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../core/AxiosHeaders.js */ "./node_modules/axios/lib/core/AxiosHeaders.js");
+/* harmony import */ var _buildURL_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./buildURL.js */ "./node_modules/axios/lib/helpers/buildURL.js");
+
+
+
+
+
+
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((config) => {
+  const newConfig = (0,_core_mergeConfig_js__WEBPACK_IMPORTED_MODULE_0__["default"])({}, config);
+
+  let {data, withXSRFToken, xsrfHeaderName, xsrfCookieName, headers, auth} = newConfig;
+
+  newConfig.headers = headers = _core_AxiosHeaders_js__WEBPACK_IMPORTED_MODULE_1__["default"].from(headers);
+
+  newConfig.url = (0,_buildURL_js__WEBPACK_IMPORTED_MODULE_2__["default"])((0,_core_buildFullPath_js__WEBPACK_IMPORTED_MODULE_3__["default"])(newConfig.baseURL, newConfig.url), config.params, config.paramsSerializer);
+
+  // HTTP basic authentication
+  if (auth) {
+    headers.set('Authorization', 'Basic ' +
+      btoa((auth.username || '') + ':' + (auth.password ? unescape(encodeURIComponent(auth.password)) : ''))
+    );
+  }
+
+  let contentType;
+
+  if (_utils_js__WEBPACK_IMPORTED_MODULE_4__["default"].isFormData(data)) {
+    if (_platform_index_js__WEBPACK_IMPORTED_MODULE_5__["default"].hasStandardBrowserEnv || _platform_index_js__WEBPACK_IMPORTED_MODULE_5__["default"].hasStandardBrowserWebWorkerEnv) {
+      headers.setContentType(undefined); // Let the browser set it
+    } else if ((contentType = headers.getContentType()) !== false) {
+      // fix semicolon duplication issue for ReactNative FormData implementation
+      const [type, ...tokens] = contentType ? contentType.split(';').map(token => token.trim()).filter(Boolean) : [];
+      headers.setContentType([type || 'multipart/form-data', ...tokens].join('; '));
+    }
+  }
+
+  // Add xsrf header
+  // This is only done if running in a standard browser environment.
+  // Specifically not if we're in a web worker, or react-native.
+
+  if (_platform_index_js__WEBPACK_IMPORTED_MODULE_5__["default"].hasStandardBrowserEnv) {
+    withXSRFToken && _utils_js__WEBPACK_IMPORTED_MODULE_4__["default"].isFunction(withXSRFToken) && (withXSRFToken = withXSRFToken(newConfig));
+
+    if (withXSRFToken || (withXSRFToken !== false && (0,_isURLSameOrigin_js__WEBPACK_IMPORTED_MODULE_6__["default"])(newConfig.url))) {
+      // Add xsrf header
+      const xsrfValue = xsrfHeaderName && xsrfCookieName && _cookies_js__WEBPACK_IMPORTED_MODULE_7__["default"].read(xsrfCookieName);
+
+      if (xsrfValue) {
+        headers.set(xsrfHeaderName, xsrfValue);
+      }
+    }
+  }
+
+  return newConfig;
+});
+
+
+
+/***/ }),
+
 /***/ "./node_modules/axios/lib/helpers/speedometer.js":
 /*!*******************************************************!*\
   !*** ./node_modules/axios/lib/helpers/speedometer.js ***!
@@ -19436,6 +20107,65 @@ function spread(callback) {
     return callback.apply(null, arr);
   };
 }
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/helpers/throttle.js":
+/*!****************************************************!*\
+  !*** ./node_modules/axios/lib/helpers/throttle.js ***!
+  \****************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/**
+ * Throttle decorator
+ * @param {Function} fn
+ * @param {Number} freq
+ * @return {Function}
+ */
+function throttle(fn, freq) {
+  let timestamp = 0;
+  let threshold = 1000 / freq;
+  let lastArgs;
+  let timer;
+
+  const invoke = (args, now = Date.now()) => {
+    timestamp = now;
+    lastArgs = null;
+    if (timer) {
+      clearTimeout(timer);
+      timer = null;
+    }
+    fn.apply(null, args);
+  }
+
+  const throttled = (...args) => {
+    const now = Date.now();
+    const passed = now - timestamp;
+    if ( passed >= threshold) {
+      invoke(args, now);
+    } else {
+      lastArgs = args;
+      if (!timer) {
+        timer = setTimeout(() => {
+          timer = null;
+          invoke(lastArgs)
+        }, threshold - passed);
+      }
+    }
+  }
+
+  const flush = () => lastArgs && invoke(lastArgs);
+
+  return [throttled, flush];
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (throttle);
 
 
 /***/ }),
@@ -19691,7 +20421,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../utils.js */ "./node_modules/axios/lib/utils.js");
 /* harmony import */ var _toFormData_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./toFormData.js */ "./node_modules/axios/lib/helpers/toFormData.js");
-/* harmony import */ var _platform_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../platform/index.js */ "./node_modules/axios/lib/platform/browser/index.js");
+/* harmony import */ var _platform_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../platform/index.js */ "./node_modules/axios/lib/platform/index.js");
 
 
 
@@ -19709,6 +20439,110 @@ function toURLEncodedForm(data, options) {
       return helpers.defaultVisitor.apply(this, arguments);
     }
   }, options));
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/helpers/trackStream.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/axios/lib/helpers/trackStream.js ***!
+  \*******************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   readBytes: () => (/* binding */ readBytes),
+/* harmony export */   streamChunk: () => (/* binding */ streamChunk),
+/* harmony export */   trackStream: () => (/* binding */ trackStream)
+/* harmony export */ });
+
+const streamChunk = function* (chunk, chunkSize) {
+  let len = chunk.byteLength;
+
+  if (!chunkSize || len < chunkSize) {
+    yield chunk;
+    return;
+  }
+
+  let pos = 0;
+  let end;
+
+  while (pos < len) {
+    end = pos + chunkSize;
+    yield chunk.slice(pos, end);
+    pos = end;
+  }
+}
+
+const readBytes = async function* (iterable, chunkSize) {
+  for await (const chunk of readStream(iterable)) {
+    yield* streamChunk(chunk, chunkSize);
+  }
+}
+
+const readStream = async function* (stream) {
+  if (stream[Symbol.asyncIterator]) {
+    yield* stream;
+    return;
+  }
+
+  const reader = stream.getReader();
+  try {
+    for (;;) {
+      const {done, value} = await reader.read();
+      if (done) {
+        break;
+      }
+      yield value;
+    }
+  } finally {
+    await reader.cancel();
+  }
+}
+
+const trackStream = (stream, chunkSize, onProgress, onFinish) => {
+  const iterator = readBytes(stream, chunkSize);
+
+  let bytes = 0;
+  let done;
+  let _onFinish = (e) => {
+    if (!done) {
+      done = true;
+      onFinish && onFinish(e);
+    }
+  }
+
+  return new ReadableStream({
+    async pull(controller) {
+      try {
+        const {done, value} = await iterator.next();
+
+        if (done) {
+         _onFinish();
+          controller.close();
+          return;
+        }
+
+        let len = value.byteLength;
+        if (onProgress) {
+          let loadedBytes = bytes += len;
+          onProgress(loadedBytes);
+        }
+        controller.enqueue(new Uint8Array(value));
+      } catch (err) {
+        _onFinish(err);
+        throw err;
+      }
+    },
+    cancel(reason) {
+      _onFinish(reason);
+      return iterator.return();
+    }
+  }, {
+    highWaterMark: 2
+  })
 }
 
 
@@ -19896,6 +20730,38 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  isBrowser: true,
+  classes: {
+    URLSearchParams: _classes_URLSearchParams_js__WEBPACK_IMPORTED_MODULE_0__["default"],
+    FormData: _classes_FormData_js__WEBPACK_IMPORTED_MODULE_1__["default"],
+    Blob: _classes_Blob_js__WEBPACK_IMPORTED_MODULE_2__["default"]
+  },
+  protocols: ['http', 'https', 'file', 'blob', 'url', 'data']
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/platform/common/utils.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/axios/lib/platform/common/utils.js ***!
+  \*********************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   hasBrowserEnv: () => (/* binding */ hasBrowserEnv),
+/* harmony export */   hasStandardBrowserEnv: () => (/* binding */ hasStandardBrowserEnv),
+/* harmony export */   hasStandardBrowserWebWorkerEnv: () => (/* binding */ hasStandardBrowserWebWorkerEnv),
+/* harmony export */   navigator: () => (/* binding */ _navigator),
+/* harmony export */   origin: () => (/* binding */ origin)
+/* harmony export */ });
+const hasBrowserEnv = typeof window !== 'undefined' && typeof document !== 'undefined';
+
+const _navigator = typeof navigator === 'object' && navigator || undefined;
+
 /**
  * Determine if we're running in a standard browser environment
  *
@@ -19913,18 +20779,8 @@ __webpack_require__.r(__webpack_exports__);
  *
  * @returns {boolean}
  */
-const isStandardBrowserEnv = (() => {
-  let product;
-  if (typeof navigator !== 'undefined' && (
-    (product = navigator.product) === 'ReactNative' ||
-    product === 'NativeScript' ||
-    product === 'NS')
-  ) {
-    return false;
-  }
-
-  return typeof window !== 'undefined' && typeof document !== 'undefined';
-})();
+const hasStandardBrowserEnv = hasBrowserEnv &&
+  (!_navigator || ['ReactNative', 'NativeScript', 'NS'].indexOf(_navigator.product) < 0);
 
 /**
  * Determine if we're running in a standard browser webWorker environment
@@ -19935,7 +20791,7 @@ const isStandardBrowserEnv = (() => {
  * `typeof window !== 'undefined' && typeof document !== 'undefined'`.
  * This leads to a problem when axios post `FormData` in webWorker
  */
- const isStandardBrowserWebWorkerEnv = (() => {
+const hasStandardBrowserWebWorkerEnv = (() => {
   return (
     typeof WorkerGlobalScope !== 'undefined' &&
     // eslint-disable-next-line no-undef
@@ -19944,17 +20800,32 @@ const isStandardBrowserEnv = (() => {
   );
 })();
 
+const origin = hasBrowserEnv && window.location.href || 'http://localhost';
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/platform/index.js":
+/*!**************************************************!*\
+  !*** ./node_modules/axios/lib/platform/index.js ***!
+  \**************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node/index.js */ "./node_modules/axios/lib/platform/browser/index.js");
+/* harmony import */ var _common_utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./common/utils.js */ "./node_modules/axios/lib/platform/common/utils.js");
+
+
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  isBrowser: true,
-  classes: {
-    URLSearchParams: _classes_URLSearchParams_js__WEBPACK_IMPORTED_MODULE_0__["default"],
-    FormData: _classes_FormData_js__WEBPACK_IMPORTED_MODULE_1__["default"],
-    Blob: _classes_Blob_js__WEBPACK_IMPORTED_MODULE_2__["default"]
-  },
-  isStandardBrowserEnv,
-  isStandardBrowserWebWorkerEnv,
-  protocols: ['http', 'https', 'file', 'blob', 'url', 'data']
+  ..._common_utils_js__WEBPACK_IMPORTED_MODULE_0__,
+  ..._node_index_js__WEBPACK_IMPORTED_MODULE_1__["default"]
 });
 
 
@@ -19972,6 +20843,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _helpers_bind_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./helpers/bind.js */ "./node_modules/axios/lib/helpers/bind.js");
+/* provided dependency */ var process = __webpack_require__(/*! process/browser.js */ "./node_modules/process/browser.js");
 
 
 
@@ -20162,12 +21034,16 @@ const isStream = (val) => isObject(val) && isFunction(val.pipe);
  * @returns {boolean} True if value is an FormData, otherwise false
  */
 const isFormData = (thing) => {
-  const pattern = '[object FormData]';
+  let kind;
   return thing && (
-    (typeof FormData === 'function' && thing instanceof FormData) ||
-    toString.call(thing) === pattern ||
-    (isFunction(thing.toString) && thing.toString() === pattern)
-  );
+    (typeof FormData === 'function' && thing instanceof FormData) || (
+      isFunction(thing.append) && (
+        (kind = kindOf(thing)) === 'formdata' ||
+        // detect form-data instance
+        (kind === 'object' && isFunction(thing.toString) && thing.toString() === '[object FormData]')
+      )
+    )
+  )
 }
 
 /**
@@ -20178,6 +21054,8 @@ const isFormData = (thing) => {
  * @returns {boolean} True if value is a URLSearchParams object, otherwise false
  */
 const isURLSearchParams = kindOfTest('URLSearchParams');
+
+const [isReadableStream, isRequest, isResponse, isHeaders] = ['ReadableStream', 'Request', 'Response', 'Headers'].map(kindOfTest);
 
 /**
  * Trim excess whitespace off the beginning and end of a string
@@ -20510,8 +21388,9 @@ const reduceDescriptors = (obj, reducer) => {
   const reducedDescriptors = {};
 
   forEach(descriptors, (descriptor, name) => {
-    if (reducer(descriptor, name, obj) !== false) {
-      reducedDescriptors[name] = descriptor;
+    let ret;
+    if ((ret = reducer(descriptor, name, obj)) !== false) {
+      reducedDescriptors[name] = ret || descriptor;
     }
   });
 
@@ -20566,8 +21445,7 @@ const toObjectSet = (arrayOrString, delimiter) => {
 const noop = () => {}
 
 const toFiniteNumber = (value, defaultValue) => {
-  value = +value;
-  return Number.isFinite(value) ? value : defaultValue;
+  return value != null && Number.isFinite(value = +value) ? value : defaultValue;
 }
 
 const ALPHA = 'abcdefghijklmnopqrstuvwxyz'
@@ -20632,6 +21510,41 @@ const toJSONObject = (obj) => {
   return visit(obj, 0);
 }
 
+const isAsyncFn = kindOfTest('AsyncFunction');
+
+const isThenable = (thing) =>
+  thing && (isObject(thing) || isFunction(thing)) && isFunction(thing.then) && isFunction(thing.catch);
+
+// original code
+// https://github.com/DigitalBrainJS/AxiosPromise/blob/16deab13710ec09779922131f3fa5954320f83ab/lib/utils.js#L11-L34
+
+const _setImmediate = ((setImmediateSupported, postMessageSupported) => {
+  if (setImmediateSupported) {
+    return setImmediate;
+  }
+
+  return postMessageSupported ? ((token, callbacks) => {
+    _global.addEventListener("message", ({source, data}) => {
+      if (source === _global && data === token) {
+        callbacks.length && callbacks.shift()();
+      }
+    }, false);
+
+    return (cb) => {
+      callbacks.push(cb);
+      _global.postMessage(token, "*");
+    }
+  })(`axios@${Math.random()}`, []) : (cb) => setTimeout(cb);
+})(
+  typeof setImmediate === 'function',
+  isFunction(_global.postMessage)
+);
+
+const asap = typeof queueMicrotask !== 'undefined' ?
+  queueMicrotask.bind(_global) : ( typeof process !== 'undefined' && process.nextTick || _setImmediate);
+
+// *********************
+
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   isArray,
   isArrayBuffer,
@@ -20643,6 +21556,10 @@ const toJSONObject = (obj) => {
   isBoolean,
   isObject,
   isPlainObject,
+  isReadableStream,
+  isRequest,
+  isResponse,
+  isHeaders,
   isUndefined,
   isDate,
   isFile,
@@ -20681,7 +21598,11 @@ const toJSONObject = (obj) => {
   ALPHABET,
   generateString,
   isSpecCompliantForm,
-  toJSONObject
+  toJSONObject,
+  isAsyncFn,
+  isThenable,
+  setImmediate: _setImmediate,
+  asap
 });
 
 

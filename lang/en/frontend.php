@@ -13,9 +13,9 @@ return [
                 'json' => '(JSON file):',
                 'php'  => '(PHP file):',
             ],
-            'news'                                   => 'News',
-            'riders_are_abandoning_buses_and_trains' => 'Riders Are Abandoning Buses and Trains. That’s a Problem for Climate Change.',
-            'translation_for'                        => 'Translation for',
+            'news'                         => 'News',
+            'climbing_toll_for_mount_fuji' => 'Climbing toll for Mount Fuji should be as high as 10,000 yen.',
+            'translation_for'              => 'Translation for',
         ],
     ],
 ];
